@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\cyber security\\fundamentals\\Projects\\Center App\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -23,18 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Form1.cs",
-              "RelativeDocumentMoniker": "Presentation\\Form1.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Form1.cs [Design]",
-              "RelativeToolTip": "Presentation\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T17:01:15.604Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

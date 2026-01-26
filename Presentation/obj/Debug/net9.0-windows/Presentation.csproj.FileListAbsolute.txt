@@ -1,0 +1,17 @@
+D:\cyber security\fundamentals\Projects\Center App\Presentation\bin\Debug\net9.0-windows\Presentation.exe
+D:\cyber security\fundamentals\Projects\Center App\Presentation\bin\Debug\net9.0-windows\Presentation.deps.json
+D:\cyber security\fundamentals\Projects\Center App\Presentation\bin\Debug\net9.0-windows\Presentation.runtimeconfig.json
+D:\cyber security\fundamentals\Projects\Center App\Presentation\bin\Debug\net9.0-windows\Presentation.dll
+D:\cyber security\fundamentals\Projects\Center App\Presentation\bin\Debug\net9.0-windows\Presentation.pdb
+D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0-windows\Presentation.Form1.resources
+D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0-windows\Presentation.csproj.GenerateResource.cache
+D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0-windows\Presentation.GeneratedMSBuildEditorConfig.editorconfig
+D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0-windows\Presentation.AssemblyInfoInputs.cache
+D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0-windows\Presentation.AssemblyInfo.cs
+D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0-windows\Presentation.csproj.CoreCompileInputs.cache
+D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0-windows\Presentation.sourcelink.json
+D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0-windows\Presentation.dll
+D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0-windows\refint\Presentation.dll
+D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0-windows\Presentation.pdb
+D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0-windows\Presentation.genruntimeconfig.cache
+D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0-windows\ref\Presentation.dll

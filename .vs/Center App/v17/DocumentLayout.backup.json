@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\cyber security\\fundamentals\\Projects\\Center App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\repository\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\repository\\messagetyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\messagetyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessageTypeRepository.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\MessageTypeRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\MessageTypeRepository.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\MessageTypeRepository.cs*",
+              "RelativeToolTip": "Infrastructure\\Repository\\MessageTypeRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T12:03:30.622Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -27,14 +44,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Form1.cs",
-              "RelativeDocumentMoniker": "Presentation\\Form1.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Form1.cs [Design]",
-              "RelativeToolTip": "Presentation\\Form1.cs [Design]",
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\UOW\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\UOW\\UnitOfWork.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\UOW\\UnitOfWork.cs*",
+              "RelativeToolTip": "Infrastructure\\Repository\\UOW\\UnitOfWork.cs*",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAWwGYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T17:01:15.604Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-26T12:02:20.967Z",
+              "EditorCaption": ""
             }
           ]
         }

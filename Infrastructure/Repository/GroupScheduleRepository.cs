@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Domain.Interfaces.Repos;
+using Domain.Models;
+using Infrastructure.Repository.Generic;
+using Microsoft.EntityFrameworkCore;
+
+namespace Infrastructure.Repository
+{
+    public class GroupScheduleRepository
+    : GenericRepository<GroupSchedule>, IGroupScheduleRepository
+    {
+        public GroupScheduleRepository(CenterDbContext context)
+            : base(context)
+        {
+        }    
+        public async Task<IEnumerable<GroupSchedule>> GetByGroupAsync(int groupId)
+        {
+            return await _dbSet
+                .Where(gs => EF.Property<int>(gs, "GroupId") == groupId)
+                .OrderBy(gs => gs.Day)
+                .ThenBy(gs => gs.Time)
+                .ToListAsync();
+        }
+    }
+
+}
