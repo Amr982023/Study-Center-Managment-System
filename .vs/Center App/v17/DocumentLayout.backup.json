@@ -3,12 +3,60 @@
   "WorkspaceRootPath": "D:\\cyber security\\fundamentals\\Projects\\Center App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\repository\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\services\\enrollmentappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\services\\enrollmentappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\repository\\messagetyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\messagetyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\repository\\studentgroupaggregationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\studentgroupaggregationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\models\\studentgroupaggregation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\studentgroupaggregation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\interfaces\\repos\\istudentgroupaggregationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\repos\\istudentgroupaggregationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\repository\\generic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\generic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\servicesinterfaces\\ienrollmentappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\servicesinterfaces\\ienrollmentappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\services\\enrollmentdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\services\\enrollmentdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\interfaces\\repos\\istudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\repos\\istudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\repository\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\interfaces\\repos\\igroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\repos\\igroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\models\\subjectgradehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\subjectgradehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +66,188 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MessageTypeRepository.cs",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\MessageTypeRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repository\\MessageTypeRepository.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\MessageTypeRepository.cs*",
-              "RelativeToolTip": "Infrastructure\\Repository\\MessageTypeRepository.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAABfAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\Generic\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\Generic\\GenericRepository.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\Generic\\GenericRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\Generic\\GenericRepository.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAowBIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T12:03:30.622Z",
+              "WhenOpened": "2026-01-27T12:18:47.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnrollmentAppService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\EnrollmentAppService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\EnrollmentAppService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\EnrollmentAppService.cs*",
+              "RelativeToolTip": "Application\\Services\\EnrollmentAppService.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:02:32.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEnrollmentAppService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\IEnrollmentAppService.cs",
+              "RelativeDocumentMoniker": "Application\\ServicesInterfaces\\IEnrollmentAppService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\IEnrollmentAppService.cs*",
+              "RelativeToolTip": "Application\\ServicesInterfaces\\IEnrollmentAppService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T12:01:32.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IStudent.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Interfaces\\Repos\\IStudent.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\Repos\\IStudent.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Interfaces\\Repos\\IStudent.cs*",
+              "RelativeToolTip": "Domain\\Interfaces\\Repos\\IStudent.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T11:28:42.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\StudentRepository.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\StudentRepository.cs*",
+              "RelativeToolTip": "Infrastructure\\Repository\\StudentRepository.cs*",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvyoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T11:27:47.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Student.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\Student.cs*",
+              "RelativeToolTip": "Domain\\Models\\Student.cs*",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T11:20:45.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentGroupAggregation.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\StudentGroupAggregation.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\StudentGroupAggregation.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\StudentGroupAggregation.cs*",
+              "RelativeToolTip": "Domain\\Models\\StudentGroupAggregation.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T10:51:11.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IStudentGroupAggregationRepository.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Interfaces\\Repos\\IStudentGroupAggregationRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\Repos\\IStudentGroupAggregationRepository.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Interfaces\\Repos\\IStudentGroupAggregationRepository.cs*",
+              "RelativeToolTip": "Domain\\Interfaces\\Repos\\IStudentGroupAggregationRepository.cs*",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T10:50:15.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnrollmentDomainService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Services\\EnrollmentDomainService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\EnrollmentDomainService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Services\\EnrollmentDomainService.cs*",
+              "RelativeToolTip": "Domain\\Services\\EnrollmentDomainService.cs*",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvzEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T10:24:26.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentGroupAggregationRepository.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\StudentGroupAggregationRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\StudentGroupAggregationRepository.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\StudentGroupAggregationRepository.cs*",
+              "RelativeToolTip": "Infrastructure\\Repository\\StudentGroupAggregationRepository.cs*",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwFEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T10:49:06.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GroupRepository.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\GroupRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\GroupRepository.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\GroupRepository.cs*",
+              "RelativeToolTip": "Infrastructure\\Repository\\GroupRepository.cs*",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T11:23:03.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IGroup.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Interfaces\\Repos\\IGroup.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\Repos\\IGroup.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Interfaces\\Repos\\IGroup.cs*",
+              "RelativeToolTip": "Domain\\Interfaces\\Repos\\IGroup.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T11:32:16.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SubjectGradeHandler.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\SubjectGradeHandler.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\SubjectGradeHandler.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\SubjectGradeHandler.cs*",
+              "RelativeToolTip": "Domain\\Models\\SubjectGradeHandler.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T10:52:45.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Group.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\Group.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Group.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\Group.cs",
+              "RelativeToolTip": "Domain\\Models\\Group.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T10:46:54.834Z",
               "EditorCaption": ""
             },
             {
@@ -40,19 +257,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\UOW\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repository\\UOW\\UnitOfWork.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\UOW\\UnitOfWork.cs*",
-              "RelativeToolTip": "Infrastructure\\Repository\\UOW\\UnitOfWork.cs*",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAWwGYAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-26T12:02:20.967Z",
-              "EditorCaption": ""
             }
           ]
         }

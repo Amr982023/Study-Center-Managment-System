@@ -35,8 +35,20 @@ namespace Infrastructure.Repository
                 .Include("_registrations")
                 .FirstOrDefaultAsync(s => s.Id == studentId);
 
-    
-        
+        public async Task<Student?> GetWithGradeAsync(int studentId)
+          => await _dbSet
+              .Include("Grade")
+              .FirstOrDefaultAsync(s => s.Id == studentId);
+
+        public async Task<bool> CanJoinAsync(int studentId, int groupId)
+        {
+            return await _context.Students
+            .AnyAsync(s =>
+                s.Id == studentId &&
+                _context.Groups.Any(g =>
+                    g.Id == groupId &&
+                    g.SubjectGrade.GradeId == s.Grade.Id));
+        }
     }
 
 }

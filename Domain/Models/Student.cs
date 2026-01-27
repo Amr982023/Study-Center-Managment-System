@@ -28,11 +28,7 @@ namespace Domain.Models
             Grade = grade;
         }
 
-        public static Result<Student> Create(
-            Person person,
-            string code,
-            string guardianPhone,
-            Grade grade)
+        public static Result<Student> Create( Person person, string code, string guardianPhone, Grade grade)
         {
             if (person == null)
                 return Result<Student>.Failure("Person required");
@@ -54,34 +50,6 @@ namespace Domain.Models
             return reg;
         }
 
-        public bool CanJoin(Group group)
-        => group.SubjectGrade.Grade.Id == Grade.Id;
-
-        public Result<StudentGroupAggregation> Enroll(Group GroupToJoin, IEnumerable<StudentGroupAggregation> GroupsOfStudent)
-        {
-            if (GroupsOfStudent.Any(SGA => SGA.Group.Id == GroupToJoin.Id && SGA.Student.Id == this.Id))
-            {
-                return Result<StudentGroupAggregation>.Failure("Student already enrolled in this group");
-
-            }
-            else
-            {
-                var SubjectID = GroupToJoin.SubjectGrade.Subject.Id;
-
-                foreach (var group in GroupsOfStudent)
-                {
-                    if (group.Group.SubjectGrade.Subject.Id == SubjectID)
-                    {
-                        return Result<StudentGroupAggregation>.Failure("Student already enrolled in a group with the same subject");
-                    }
-                }
-
-
-                StudentGroupAggregation studentGroupAggregation = new StudentGroupAggregation { Student = this, Group = GroupToJoin };
-
-                return Result<StudentGroupAggregation>.Success(studentGroupAggregation);
-            }
-        }
     }
 
 }

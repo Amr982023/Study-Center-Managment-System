@@ -14,9 +14,13 @@ namespace Domain.Interfaces.Repos
 
         Task<IEnumerable<Student>> GetByGradeAsync(int gradeId);
 
-        Task<bool> ExistsByCodeAsync(string code);  
+        Task<bool> ExistsByCodeAsync(string code);
+
+        Task<bool> CanJoinAsync(int studentId, int groupId);
 
         Task<Student?> GetWithRegistrationsAsync(int studentId);
+
+        Task<Student?> GetWithGradeAsync(int studentId);
     }
 
 }

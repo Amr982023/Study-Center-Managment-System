@@ -35,6 +35,29 @@ namespace Infrastructure.Repository
                 .OrderBy(g => g.Name)
                 .ToListAsync();
         }
+
+
+        public async Task<IEnumerable<Group>> GetByStudentWithDetailsAsync(int studentId)
+        {
+            return await _dbSet
+                .Where(g =>
+                    _context.Set<StudentGroupAggregation>()
+                        .Any(sga =>
+                            EF.Property<int>(sga, "StudentId") == studentId &&
+                            EF.Property<int>(sga, "GroupId") == g.Id)).Include(g => g.SubjectGrade).ThenInclude(sg => sg.Grade)
+                .OrderBy(g => g.Name)
+                .ToListAsync();
+        }
+
+        public async Task<Group?> GetWithSubjectGradeDetailsAsync(int groupId)
+        {
+            return await _dbSet
+                .Include(g => g.SubjectGrade)
+                    .ThenInclude(sg => sg.Subject)
+                .Include(g => g.SubjectGrade)
+                    .ThenInclude(sg => sg.Grade)
+                .FirstOrDefaultAsync(g => g.Id == groupId);
+        }
     }
 
 }

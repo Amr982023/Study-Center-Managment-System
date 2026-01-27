@@ -9,8 +9,12 @@ namespace Domain.Models
 {
     public class SubjectGradeHandler : BaseEntity<int>
     {
+        public int SubjectId { get; private set; }
         public Subject Subject { get; private set; }
+
+        public int GradeId { get; private set; }
         public Grade Grade { get; private set; }
+
         public decimal SessionFees { get; private set; }
 
         private SubjectGradeHandler() { }

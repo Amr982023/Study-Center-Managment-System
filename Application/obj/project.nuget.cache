@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BaRLhnj0zLw=",
+  "dgSpecHash": "cD7mNBGK8Ts=",
   "success": true,
   "projectFilePath": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.12\\microsoft.extensions.dependencyinjection.abstractions.9.0.12.nupkg.sha512"
+  ],
   "logs": []
 }
