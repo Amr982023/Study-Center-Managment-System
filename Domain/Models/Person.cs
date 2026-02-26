@@ -7,24 +7,24 @@ using Domain.Common;
 
 namespace Domain.Models
 {
-    public class Person : BaseEntity<int>
+    public abstract class Person : BaseEntity<int>
     {
-        public required string FirstName { get;  set; }
-        public string? MidName { get; private set; }
-        public string LastName { get; private set; }
-        public required string PersonalPhone { get;  set; }
-        public string Gender { get; private set; }
+        public string FirstName { get; protected set; }
+        public string? MidName { get; protected set; }
+        public string LastName { get; protected set; }
+        public string PersonalPhone { get; protected set; }
+        public string Gender { get; protected set; }
 
-        private Person(string first, string last, string phone, string gender, string? mid)
+        protected Person() { } // For ORM
+
+        protected Person(string first, string last, string phone, string gender, string? mid)
         {
-           
             FirstName = first;
             LastName = last;
             PersonalPhone = phone;
             Gender = gender;
             MidName = mid;
         }
-
     }
 
 }

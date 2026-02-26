@@ -26,11 +26,13 @@ namespace Infrastructure.Configurations
 
             builder.HasOne(p => p.Student)
                    .WithMany()
-                   .HasForeignKey("StudentId");
+                   .HasForeignKey("StudentId")
+                   .OnDelete(DeleteBehavior.Restrict); // ✅ FIX
 
             builder.HasOne(p => p.PerformedBy)
                    .WithMany()
-                   .HasForeignKey("PerformedByUserId");
+                   .HasForeignKey("PerformedByUserId")
+                   .OnDelete(DeleteBehavior.Restrict); // ✅ FIX
         }
     }
 

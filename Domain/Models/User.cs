@@ -7,38 +7,39 @@ using Domain.Common;
 
 namespace Domain.Models
 {
-    public class User : BaseEntity<int>
+    public class User : Person
     {
-        public Person Person { get; private set; }
         public string UserName { get; private set; }
         public string Email { get; private set; }
         public string Permission { get; private set; }
         public string HashedPassword { get; private set; }
+        public string FullName => $"{FirstName} {LastName}";
 
         private User() { }
 
-        private User(Person person, string userName, string permission, string hashedPassword)
+        private User(string first, string last, string phone, string gender, string? mid,
+                     string userName, string email, string permission, string hashedPassword)
+            : base(first, last, phone, gender, mid)
         {
-            Person = person;
             UserName = userName;
+            Email = email;
             Permission = permission;
             HashedPassword = hashedPassword;
         }
 
         public static Result<User> Create(
-            Person person,
-            string userName,
-            string permission,
-            string hashedPassword)
+            string firstName, string lastName, string phone, string gender,
+            string userName, string email, string permission, string hashedPassword,
+            string? midName = null)
         {
-            if (person == null)
-                return Result<User>.Failure("Person required");
-
+            if (string.IsNullOrWhiteSpace(firstName))
+                return Result<User>.Failure("First name required.");
             if (string.IsNullOrWhiteSpace(userName))
-                return Result<User>.Failure("Username required");
+                return Result<User>.Failure("Username required.");
 
             return Result<User>.Success(
-                new User(person, userName, permission, hashedPassword));
+                new User(firstName, lastName, phone, gender, midName,
+                         userName, email, permission, hashedPassword));
         }
     }
 

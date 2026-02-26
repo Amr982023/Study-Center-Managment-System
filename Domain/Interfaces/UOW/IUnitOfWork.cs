@@ -11,7 +11,7 @@ namespace Domain.Interfaces.UOW
     {
         // ---------- Core ----------
         IUser Users { get; }
-        IPerson Persons { get; }
+ 
         IStudent Students { get; }
         IGrade Grades { get; }
         ISubjectRepository Subjects { get; }

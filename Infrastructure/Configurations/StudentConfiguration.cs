@@ -15,7 +15,14 @@ namespace Infrastructure.Configurations
         {
             builder.ToTable("Students");
 
-            builder.HasKey(s => s.Id);
+            builder.HasKey(p => p.Id);
+
+            builder.Property(s => s.FirstName)
+                   .IsRequired()
+                   .HasMaxLength(50);
+            builder.Property(s => s.PersonalPhone)
+                   .IsRequired()
+                   .HasMaxLength(20);
 
             builder.Property(s => s.Code)
                    .IsRequired()
@@ -24,21 +31,9 @@ namespace Infrastructure.Configurations
             builder.Property(s => s.GuardianPhone)
                    .HasMaxLength(20);
 
-            builder.HasOne(s => s.Person)
-                   .WithMany()
-                   .HasForeignKey("PersonId");
-
             builder.HasOne(s => s.Grade)
                    .WithMany()
                    .HasForeignKey("GradeId");
-
-            // private collection mapping
-            builder.HasMany<StudentRegistration>("_registrations")
-                   .WithOne(r => r.Student)
-                   .HasForeignKey("StudentId");
-
-            builder.Navigation("_registrations")
-                   .UsePropertyAccessMode(PropertyAccessMode.Field);
         }
     }
 

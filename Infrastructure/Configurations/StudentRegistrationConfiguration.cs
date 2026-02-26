@@ -22,12 +22,14 @@ namespace Infrastructure.Configurations
                    .IsRequired();
 
             builder.HasOne(r => r.Student)
-                   .WithMany("_registrations")
-                   .HasForeignKey("StudentId");
+                   .WithMany(s => s.Registrations)
+                   .HasForeignKey("StudentId")
+                   .OnDelete(DeleteBehavior.NoAction);   // ⭐ FIX
 
             builder.HasOne(r => r.ClassSession)
                    .WithMany()
-                   .HasForeignKey("ClassSessionId");
+                   .HasForeignKey("ClassSessionId")
+                   .OnDelete(DeleteBehavior.NoAction);   // ⭐ IMPORTANT
         }
     }
 

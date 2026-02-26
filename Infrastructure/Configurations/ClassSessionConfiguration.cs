@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Infrastructure.Configurations
 {
     public class ClassSessionConfiguration
-      : IEntityTypeConfiguration<ClassSession>
+    : IEntityTypeConfiguration<ClassSession>
     {
         public void Configure(EntityTypeBuilder<ClassSession> builder)
         {
@@ -25,8 +25,9 @@ namespace Infrastructure.Configurations
                    .IsRequired();
 
             builder.HasOne(s => s.Group)
-                   .WithMany("_sessions")
-                   .HasForeignKey("GroupId");
+                   .WithMany(g => g.Sessions) // ✅ FIX
+                   .HasForeignKey("GroupId")
+                   .OnDelete(DeleteBehavior.NoAction); // optional but recommended
 
             builder.HasOne(s => s.Status)
                    .WithMany()

@@ -1,6 +1,16 @@
+D:\cyber security\fundamentals\Projects\Center App\Application\bin\Debug\net9.0\Application.deps.json
+D:\cyber security\fundamentals\Projects\Center App\Application\bin\Debug\net9.0\Application.dll
+D:\cyber security\fundamentals\Projects\Center App\Application\bin\Debug\net9.0\Application.pdb
+D:\cyber security\fundamentals\Projects\Center App\Application\bin\Debug\net9.0\Domain.dll
+D:\cyber security\fundamentals\Projects\Center App\Application\bin\Debug\net9.0\Domain.pdb
 D:\cyber security\fundamentals\Projects\Center App\Application\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache
 D:\cyber security\fundamentals\Projects\Center App\Application\obj\Debug\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig
 D:\cyber security\fundamentals\Projects\Center App\Application\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
 D:\cyber security\fundamentals\Projects\Center App\Application\obj\Debug\net9.0\Application.AssemblyInfo.cs
 D:\cyber security\fundamentals\Projects\Center App\Application\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
 D:\cyber security\fundamentals\Projects\Center App\Application\obj\Debug\net9.0\Application.sourcelink.json
+D:\cyber security\fundamentals\Projects\Center App\Application\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date
+D:\cyber security\fundamentals\Projects\Center App\Application\obj\Debug\net9.0\Application.dll
+D:\cyber security\fundamentals\Projects\Center App\Application\obj\Debug\net9.0\refint\Application.dll
+D:\cyber security\fundamentals\Projects\Center App\Application\obj\Debug\net9.0\Application.pdb
+D:\cyber security\fundamentals\Projects\Center App\Application\obj\Debug\net9.0\ref\Application.dll

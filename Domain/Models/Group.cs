@@ -10,6 +10,7 @@ namespace Domain.Models
     public class Group : BaseEntity<int>
     {
         public string Name { get; private set; }
+        public int SubjectGradeHandlerId { get; private set; }
         public SubjectGradeHandler SubjectGrade { get; private set; }
         public DateTime FirstSessionDate { get; private set; }
 

@@ -19,6 +19,24 @@ namespace Application.DependencyInjection
             services.AddScoped<IEnrollmentAppService,EnrollmentAppService>();
 
             services.AddScoped<EnrollmentDomainService>();
+            services.AddScoped<IGradeService, GradeService>();
+            services.AddScoped<ISubjectService, SubjectService>();
+            services.AddScoped<ISubjectGradeHandlerService, SubjectGradeHandlerService>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IStudentService, StudentService>();
+            services.AddScoped<IGroupService, GroupService>();
+            services.AddScoped<IGroupScheduleService, GroupScheduleService>();
+            services.AddScoped<IClassSessionService, ClassSessionService>();
+            services.AddScoped<IStudentGroupAggregationService, StudentGroupAggregationService>();
+            services.AddScoped<IStudentRegistrationService, StudentRegistrationService>();
+            services.AddScoped<IPaymentService, PaymentService>();
+            services.AddScoped<IExamService, ExamService>();
+            services.AddScoped<IExamResultService, ExamResultService>();
+            services.AddScoped<IExamStatusService, ExamStatusService>();
+            services.AddScoped<ISessionStatusService, SessionStatusService>();
+            services.AddScoped<IMessageTypeService, MessageTypeService>();
+            services.AddScoped<IMessageService, MessageService>();
+
 
             return services;
         }

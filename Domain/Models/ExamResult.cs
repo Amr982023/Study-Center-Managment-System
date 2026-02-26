@@ -31,12 +31,7 @@ namespace Domain.Models
             ExceptFullMark = exceptFullMark;
         }
 
-        public static Result<ExamResult> Create(
-            Exam exam,
-            Student student,
-            ExamStatus status,
-            int result,
-            bool exceptFullMark)
+        public static Result<ExamResult> Create( Exam exam, Student student,ExamStatus status,int result, bool exceptFullMark)
         {
             if (exam == null || student == null || status == null)
                 return Result<ExamResult>.Failure("Invalid exam result data");

@@ -1,8 +1,101 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-    <ItemGroup>
-        <Compile Update="Form1.cs">
-            <SubType>Form</SubType>
-        </Compile>
-    </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AttendanceDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Controls\CardPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\DangerButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\Divider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\GhostButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\RoundedButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\SectionLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\StatCard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\StatusBadge.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\StyledComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\StyledDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Controls\StyledTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="EnrollStudentDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ExamDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ExamResultsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GroupDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GroupScheduleDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PaymentDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SessionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserControls\DashboardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserControls\ExamsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\Groupspage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainShell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="StudentDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserControls\LookupsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\PaymentsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\SessionsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\StudentsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControls\UsersPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
 </Project>

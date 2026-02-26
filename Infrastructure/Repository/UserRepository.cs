@@ -20,7 +20,6 @@ namespace Infrastructure.Repository
         public async Task<User?> GetByEmailAsync(string email)
         {
             return await _dbSet
-                .Include(u => u.Person)
                 .FirstOrDefaultAsync(u => u.Email == email);
         }
 
@@ -28,7 +27,6 @@ namespace Infrastructure.Repository
         public async Task<User?> GetByUserNameAsync(string userName)
         {
             return await _dbSet
-                .Include(u => u.Person)
                 .FirstOrDefaultAsync(u => u.UserName == userName);
         }
 
@@ -48,7 +46,6 @@ namespace Infrastructure.Repository
         public async Task<User?> GetWithPersonAsync(int userId)
         {
             return await _dbSet
-                .Include(u => u.Person)
                 .FirstOrDefaultAsync(u => u.Id == userId);
         }
     }

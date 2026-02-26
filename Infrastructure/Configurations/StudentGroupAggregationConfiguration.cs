@@ -10,23 +10,24 @@ using Microsoft.EntityFrameworkCore;
 namespace Infrastructure.Configurations
 {
     public class StudentGroupAggregationConfiguration
-    : IEntityTypeConfiguration<StudentGroupAggregation>
+        : IEntityTypeConfiguration<StudentGroupAggregation>
     {
         public void Configure(EntityTypeBuilder<StudentGroupAggregation> builder)
         {
             builder.ToTable("StudentGroupAggregations");
 
-            
-            builder.HasKey(x => x.Id);          
+            builder.HasKey(x => x.Id);
 
             builder.HasOne(x => x.Student)
                    .WithMany()
                    .HasForeignKey("StudentId")
+                   .OnDelete(DeleteBehavior.NoAction)   // ✅ FIX
                    .IsRequired();
 
             builder.HasOne(x => x.Group)
                    .WithMany()
                    .HasForeignKey("GroupId")
+                   .OnDelete(DeleteBehavior.NoAction)   // ✅ FIX
                    .IsRequired();
 
             builder.HasIndex("StudentId", "GroupId")

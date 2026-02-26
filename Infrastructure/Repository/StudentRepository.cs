@@ -18,8 +18,7 @@ namespace Infrastructure.Repository
         public StudentRepository(CenterDbContext context) : base(context) { }
 
         public async Task<Student?> GetByCodeAsync(string code)
-            => await _dbSet
-                .Include(s => s.Person)
+            => await _dbSet 
                 .FirstOrDefaultAsync(s => s.Code == code);
 
         public async Task<IEnumerable<Student>> GetByGradeAsync(int gradeId)

@@ -19,7 +19,6 @@ namespace Infrastructure.Repository.UOW
 
         // ---------- backing fields ----------
         private IUser? _users;
-        private IPerson? _persons;
         private IStudent? _students;
         private IGrade? _grades;
         private ISubjectRepository? _subjects;
@@ -46,8 +45,7 @@ namespace Infrastructure.Repository.UOW
         public IUser Users
             => _users ??= new UserRepository(_context);
 
-        public IPerson Persons
-            => _persons ??= new PersonRepository(_context);
+       
 
         public IStudent Students
             => _students ??= new StudentRepository(_context);

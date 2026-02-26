@@ -15,7 +15,19 @@ namespace Infrastructure.Configurations
         {
             builder.ToTable("Users");
 
-            builder.HasKey(u => u.Id);
+            builder.HasKey(p => p.Id);
+
+            builder.Property(s => s.FirstName)
+                   .IsRequired()
+                   .HasMaxLength(50);
+
+            builder.Property(s => s.PersonalPhone)
+                   .IsRequired()
+                   .HasMaxLength(20);
+
+            builder.Property(s => s.Email)
+                   .IsRequired()
+                   .HasMaxLength(100);
 
             builder.Property(u => u.UserName)
                    .IsRequired()
@@ -26,10 +38,7 @@ namespace Infrastructure.Configurations
             builder.Property(u => u.HashedPassword)
                    .IsRequired().HasMaxLength(500);
 
-            builder.HasOne(u => u.Person)
-                   .WithMany()
-                   .HasForeignKey("PersonId")
-                   .IsRequired();
+            
         }
     }
 
