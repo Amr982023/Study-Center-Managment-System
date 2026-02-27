@@ -12,6 +12,7 @@ namespace Domain.Models
         public string FirstName { get; protected set; }
         public string? MidName { get; protected set; }
         public string LastName { get; protected set; }
+        public string FullName => $"{FirstName}{(string.IsNullOrEmpty(MidName) ? " " : $" {MidName} ")}{LastName}";
         public string PersonalPhone { get; protected set; }
         public string Gender { get; protected set; }
 

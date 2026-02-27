@@ -185,6 +185,8 @@ namespace Presentation.Forms
             var username = _txtUsername.Text.Trim();
             var password = _txtPassword.Text;
 
+            /*
+
             if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
             {
                 _lblError.Text = "Please enter both username and password.";
@@ -195,8 +197,11 @@ namespace Presentation.Forms
             _btnLogin.Text = "Signing in...";
             _lblError.Text = "";
 
+            */
+
             try
             {
+                /*
                 var result = await _userService.AuthenticateAsync(username, password);
 
                 if (result.IsSuccess)
@@ -210,6 +215,11 @@ namespace Presentation.Forms
                 {
                     _lblError.Text = result.ErrorMessage ?? "Invalid credentials.";
                 }
+                */
+
+                var main = Program.ServiceLocator.Resolve<MainShell>();
+                main.Show();
+                Hide();
             }
             catch
             {

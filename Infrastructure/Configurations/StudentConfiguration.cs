@@ -15,15 +15,6 @@ namespace Infrastructure.Configurations
         {
             builder.ToTable("Students");
 
-            builder.HasKey(p => p.Id);
-
-            builder.Property(s => s.FirstName)
-                   .IsRequired()
-                   .HasMaxLength(50);
-            builder.Property(s => s.PersonalPhone)
-                   .IsRequired()
-                   .HasMaxLength(20);
-
             builder.Property(s => s.Code)
                    .IsRequired()
                    .HasMaxLength(50);

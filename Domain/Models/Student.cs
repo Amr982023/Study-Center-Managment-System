@@ -11,7 +11,6 @@ namespace Domain.Models
     {
         public string Code { get; private set; }
         public string GuardianPhone { get; private set; }
-        public string FullName => $"{FirstName} {LastName}";
         public Grade Grade { get; private set; }
         private readonly List<StudentRegistration> _registrations = new();
         public IReadOnlyCollection<StudentRegistration> Registrations => _registrations;

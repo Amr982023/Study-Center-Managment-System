@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "cD7mNBGK8Ts=",
+  "dgSpecHash": "G8mhLED7vDU=",
   "success": true,
-  "projectFilePath": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Application.csproj",
+  "projectFilePath": "E:\\Work\\Amr\\Study-Center-Managment-System\\Application\\Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.12\\microsoft.extensions.dependencyinjection.abstractions.9.0.12.nupkg.sha512"
+    "C:\\Users\\AhmedTarek2\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.12\\microsoft.extensions.dependencyinjection.abstractions.9.0.12.nupkg.sha512",
+    "C:\\Users\\AhmedTarek2\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.13\\microsoft.windowsdesktop.app.ref.9.0.13.nupkg.sha512",
+    "C:\\Users\\AhmedTarek2\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.13\\microsoft.netcore.app.ref.9.0.13.nupkg.sha512",
+    "C:\\Users\\AhmedTarek2\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.13\\microsoft.aspnetcore.app.ref.9.0.13.nupkg.sha512"
   ],
   "logs": []
 }

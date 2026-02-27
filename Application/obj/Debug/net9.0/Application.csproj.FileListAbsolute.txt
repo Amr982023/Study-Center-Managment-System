@@ -14,3 +14,19 @@ D:\cyber security\fundamentals\Projects\Center App\Application\obj\Debug\net9.0\
 D:\cyber security\fundamentals\Projects\Center App\Application\obj\Debug\net9.0\refint\Application.dll
 D:\cyber security\fundamentals\Projects\Center App\Application\obj\Debug\net9.0\Application.pdb
 D:\cyber security\fundamentals\Projects\Center App\Application\obj\Debug\net9.0\ref\Application.dll
+E:\Work\Amr\Study-Center-Managment-System\Application\bin\Debug\net9.0\Application.deps.json
+E:\Work\Amr\Study-Center-Managment-System\Application\bin\Debug\net9.0\Application.dll
+E:\Work\Amr\Study-Center-Managment-System\Application\bin\Debug\net9.0\Application.pdb
+E:\Work\Amr\Study-Center-Managment-System\Application\bin\Debug\net9.0\Domain.dll
+E:\Work\Amr\Study-Center-Managment-System\Application\bin\Debug\net9.0\Domain.pdb
+E:\Work\Amr\Study-Center-Managment-System\Application\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache
+E:\Work\Amr\Study-Center-Managment-System\Application\obj\Debug\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\Amr\Study-Center-Managment-System\Application\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
+E:\Work\Amr\Study-Center-Managment-System\Application\obj\Debug\net9.0\Application.AssemblyInfo.cs
+E:\Work\Amr\Study-Center-Managment-System\Application\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
+E:\Work\Amr\Study-Center-Managment-System\Application\obj\Debug\net9.0\Application.sourcelink.json
+E:\Work\Amr\Study-Center-Managment-System\Application\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date
+E:\Work\Amr\Study-Center-Managment-System\Application\obj\Debug\net9.0\Application.dll
+E:\Work\Amr\Study-Center-Managment-System\Application\obj\Debug\net9.0\refint\Application.dll
+E:\Work\Amr\Study-Center-Managment-System\Application\obj\Debug\net9.0\Application.pdb
+E:\Work\Amr\Study-Center-Managment-System\Application\obj\Debug\net9.0\ref\Application.dll

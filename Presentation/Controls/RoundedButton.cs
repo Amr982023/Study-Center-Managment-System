@@ -41,9 +41,8 @@ namespace Presentation.Controls
             SetStyle(
                 ControlStyles.UserPaint |
                 ControlStyles.AllPaintingInWmPaint |
-                ControlStyles.DoubleBuffer |
-                ControlStyles.SupportsTransparentBackColor |
-                ControlStyles.Opaque,
+                ControlStyles.OptimizedDoubleBuffer |
+                ControlStyles.SupportsTransparentBackColor,
                 true);
         }
 

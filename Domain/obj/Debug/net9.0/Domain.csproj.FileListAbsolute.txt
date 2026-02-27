@@ -10,3 +10,15 @@ D:\cyber security\fundamentals\Projects\Center App\Domain\obj\Debug\net9.0\Domai
 D:\cyber security\fundamentals\Projects\Center App\Domain\obj\Debug\net9.0\refint\Domain.dll
 D:\cyber security\fundamentals\Projects\Center App\Domain\obj\Debug\net9.0\Domain.pdb
 D:\cyber security\fundamentals\Projects\Center App\Domain\obj\Debug\net9.0\ref\Domain.dll
+E:\Work\Amr\Study-Center-Managment-System\Domain\bin\Debug\net9.0\Domain.deps.json
+E:\Work\Amr\Study-Center-Managment-System\Domain\bin\Debug\net9.0\Domain.dll
+E:\Work\Amr\Study-Center-Managment-System\Domain\bin\Debug\net9.0\Domain.pdb
+E:\Work\Amr\Study-Center-Managment-System\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Work\Amr\Study-Center-Managment-System\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
+E:\Work\Amr\Study-Center-Managment-System\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
+E:\Work\Amr\Study-Center-Managment-System\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
+E:\Work\Amr\Study-Center-Managment-System\Domain\obj\Debug\net9.0\Domain.sourcelink.json
+E:\Work\Amr\Study-Center-Managment-System\Domain\obj\Debug\net9.0\Domain.dll
+E:\Work\Amr\Study-Center-Managment-System\Domain\obj\Debug\net9.0\refint\Domain.dll
+E:\Work\Amr\Study-Center-Managment-System\Domain\obj\Debug\net9.0\Domain.pdb
+E:\Work\Amr\Study-Center-Managment-System\Domain\obj\Debug\net9.0\ref\Domain.dll

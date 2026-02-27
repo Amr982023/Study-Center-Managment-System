@@ -13,7 +13,6 @@ namespace Domain.Models
         public string Email { get; private set; }
         public string Permission { get; private set; }
         public string HashedPassword { get; private set; }
-        public string FullName => $"{FirstName} {LastName}";
 
         private User() { }
 

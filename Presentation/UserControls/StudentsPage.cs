@@ -41,12 +41,22 @@ namespace Presentation.UserControls
             var headerPanel = new Panel { Dock = DockStyle.Top, Height = 120, BackColor = Color.Transparent, Padding = new Padding(0, 0, 0, 8) };
             var lblTitle = new SectionLabel { Text = "Students", Location = new Point(0, 0) };
             _lblCount = new Label { Font = AppTheme.FontSmall, ForeColor = AppTheme.TextMuted, BackColor = Color.Transparent, AutoSize = true, Location = new Point(0, 36) };
-            var toolbar = new Panel { Height = 48, BackColor = Color.Transparent, Location = new Point(0, 60) };
+            //var toolbar = new Panel { Height = 48, BackColor = Color.Transparent, Location = new Point(0, 60) };
+            var toolbar = new FlowLayoutPanel
+            {
+                Height = 48,
+                Dock = DockStyle.Bottom,
+                BackColor = Color.Transparent,
+                FlowDirection = FlowDirection.LeftToRight,
+                WrapContents = false,
+                AutoSize = false,
+                Padding = new Padding(0, 5, 0, 0)
+            };
 
             _txtSearch = new StyledTextBox { Width = 260, Height = AppTheme.InputHeight, Placeholder = "🔍  Search by name or code...", Location = new Point(0, 5) };
             _txtSearch.Inner.TextChanged += async (s, e) => await ApplyFilterAsync();
 
-            _cmbGradeFilter = new StyledComboBox { Width = 150, Location = new Point(275, 5) };
+            _cmbGradeFilter = new StyledComboBox { Width = 150, ItemHeight = 32, Location = new Point(275, 5) };
             _cmbGradeFilter.SelectedIndexChanged += async (s, e) => await ApplyFilterAsync();
 
             _btnAdd = new RoundedButton { Text = "+ Add Student", Width = 140, Height = AppTheme.ButtonHeight, Location = new Point(440, 5) };
@@ -56,6 +66,7 @@ namespace Presentation.UserControls
 
             var tableCard = new CardPanel { Dock = DockStyle.Fill };
             _grid = new StyledDataGridView { Dock = DockStyle.Fill };
+
             _grid.Columns.AddRange(
                 new DataGridViewTextBoxColumn { HeaderText = "ID", Name = "Id", FillWeight = 8 },
                 new DataGridViewTextBoxColumn { HeaderText = "Code", Name = "Code", FillWeight = 12 },

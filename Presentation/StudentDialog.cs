@@ -74,7 +74,16 @@ namespace Presentation.Forms
             _btnSave = new RoundedButton { Text = StudentId.HasValue ? "Save Changes" : "Add Student", Width = 160, Height = AppTheme.ButtonHeight, Location = new Point(24, 416) };
             _btnSave.Click += async (s, e) => await SaveAsync();
 
-            _btnCancel = new GhostButton { Text = "Cancel", Width = 110, Height = AppTheme.ButtonHeight, Location = new Point(196, 416) };
+            _btnCancel = new GhostButton
+            {
+                Text = "Cancel",
+                Width = 110,
+                Height = AppTheme.ButtonHeight,
+                Location = new Point(196, 416),
+                NormalColor = Color.Orange,           // ← idle color
+                HoverColor = Color.DarkOrange,        // ← hover color
+                TextColor = Color.White               // ← text/border color
+            };  
             _btnCancel.Click += (s, e) => { DialogResult = DialogResult.Cancel; Close(); };
 
             Controls.AddRange(new Control[] { lblTitle, divider, l1, _txtFirstName, l2, _txtMidName, l3, _txtLastName, l4, _txtCode, l5, _txtPhone, l6, _txtGuardianPhone, l7, _cmbGrade, l8, _cmbGender, _lblError, _btnSave, _btnCancel });

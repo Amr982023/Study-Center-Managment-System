@@ -22,13 +22,14 @@ namespace Presentation.Controls
 
         protected override void OnPaint(PaintEventArgs e)
         {
+            e.Graphics.Clear(Parent?.BackColor ?? BackColor);
             e.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
             using var path = RoundRect(ClientRectangle, CornerRadius);
-            using var fillBrush = new SolidBrush(_hovered ? Color.FromArgb(30, 240, 138, 4) : Color.Transparent);
+            using var fillBrush = new SolidBrush(_hovered ? HoverColor : NormalColor);
             using var borderPen = new Pen(AppTheme.Tangerine, 1.5f);
             e.Graphics.FillPath(fillBrush, path);
             e.Graphics.DrawPath(borderPen, path);
-            var sf = new StringFormat { Alignment = StringAlignment.Center, LineAlignment = StringAlignment.Center };
+            using var sf = new StringFormat { Alignment = StringAlignment.Center, LineAlignment = StringAlignment.Center };
             using var tb = new SolidBrush(TextColor);
             e.Graphics.DrawString(Text, Font, tb, ClientRectangle, sf);
         }
