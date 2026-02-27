@@ -4,6 +4,7 @@ using Application.Services;
 using Application.ServicesInterfaces;
 using Domain.Interfaces;
 using Domain.Interfaces.UOW;
+using Domain.Services;
 using Infrastructure;
 using Infrastructure.Repository.UOW;
 using Microsoft.Extensions.DependencyInjection;
@@ -45,6 +46,8 @@ namespace Presentation
         private static void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<CenterDbContext>();
+            
+
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddScoped<IGradeService, GradeService>();
@@ -64,6 +67,8 @@ namespace Presentation
             services.AddScoped<ISessionStatusService, SessionStatusService>();
             services.AddScoped<IMessageTypeService, MessageTypeService>();
             services.AddScoped<IMessageService, MessageService>();
+            services.AddScoped<EnrollmentDomainService>();
+            services.AddScoped<IStudentGroupAggregationService, StudentGroupAggregationService>();
 
             services.AddTransient<LoginForm>();
             services.AddTransient<MainShell>();

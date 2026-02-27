@@ -61,9 +61,6 @@
     <Compile Update="UserControls\DashboardPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="UserControls\ExamsPage.cs">
       <SubType>UserControl</SubType>
     </Compile>

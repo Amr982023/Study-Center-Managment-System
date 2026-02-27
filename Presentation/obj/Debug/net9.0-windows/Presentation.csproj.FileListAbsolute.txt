@@ -134,7 +134,6 @@ D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0
 D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0-windows\EnrollStudentDialog.resources
 D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0-windows\Presentation.ExamDialog.resources
 D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0-windows\Presentation.ExamResultsDialog.resources
-D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0-windows\Presentation.Form1.resources
 D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0-windows\GroupDialog.resources
 D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0-windows\Presentation.GroupScheduleDialog.resources
 D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0-windows\Presentation.Forms.LoginForm.resources

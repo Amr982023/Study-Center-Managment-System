@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5lJB/GFbf1k=",
+  "dgSpecHash": "Szozzr5tWFo=",
   "success": true,
-  "projectFilePath": "E:\\Work\\Amr\\Study-Center-Managment-System\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\AhmedTarek2\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.13\\microsoft.windowsdesktop.app.ref.9.0.13.nupkg.sha512",
-    "C:\\Users\\AhmedTarek2\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.13\\microsoft.netcore.app.ref.9.0.13.nupkg.sha512",
-    "C:\\Users\\AhmedTarek2\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.13\\microsoft.aspnetcore.app.ref.9.0.13.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
