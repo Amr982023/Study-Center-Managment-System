@@ -18,7 +18,18 @@ namespace Infrastructure.Repository
         {
         }
 
-      
+        public override async Task<IEnumerable<Group>> GetAllAsync()
+        {
+            return await _dbSet
+                .Include(g => g.SubjectGrade)
+                    .ThenInclude(sg => sg.Subject)
+                .Include(g => g.SubjectGrade)
+                    .ThenInclude(sg => sg.Grade)
+                .OrderBy(g => g.Name)
+                .ToListAsync();
+        }
+
+
         public async Task<Group?> GetWithSessionsAsync(int groupId)
         {
             return await _dbSet

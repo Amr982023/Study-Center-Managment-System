@@ -29,7 +29,7 @@ public class GroupDialog : Form
     private void InitUI()
     {
         Text = GroupId.HasValue ? "Edit Group" : "Add Group";
-        Size = new Size(440, 360);
+        Size = new Size(440, 380);
         StartPosition = FormStartPosition.CenterParent;
         BackColor = AppTheme.CardBg;
         FormBorderStyle = FormBorderStyle.FixedDialog;
@@ -50,7 +50,7 @@ public class GroupDialog : Form
         _txtName = new StyledTextBox { Width = 380, Height = AppTheme.InputHeight, Location = new Point(24, 84) };
 
         var l2 = MakeLabel("Subject / Grade *", 24, 134);
-        _cmbHandler = new StyledComboBox { Width = 380, Location = new Point(24, 154) };
+        _cmbHandler = new StyledComboBox { Width = 380, Location = new Point(24, 154), FormattingEnabled = true };
 
         var l3 = MakeLabel("First Session Date *", 24, 200);
         _dtpFirst = new DateTimePicker
@@ -84,10 +84,15 @@ public class GroupDialog : Form
         _btnCancel = new GhostButton
         {
             Text = "Cancel",
-            Width = 100,
+            Width = 110,
             Height = AppTheme.ButtonHeight,
-            Location = new Point(196, 284)
+            Location = new Point(196, 284),
+            NormalColor = Color.Orange,           // ← idle color
+            HoverColor = Color.DarkOrange,        // ← hover color
+            TextColor = Color.White               // ← text/border color
         };
+
+
         _btnCancel.Click += (s, e) => { DialogResult = DialogResult.Cancel; Close(); };
 
         Controls.AddRange(new Control[]
@@ -104,12 +109,19 @@ public class GroupDialog : Form
         if (r.IsSuccess)
         {
             foreach (var h in r.Value)
-                _cmbHandler.Items.Add(h);
-            _cmbHandler.DisplayMember = "Name";
+                _cmbHandler.Items.Add(h);  // add the real object
+
+            _cmbHandler.Format += (s, e) =>
+            {
+                if (e.Value is SubjectGradeHandler h)
+                    e.Value = $"{h.Subject?.Name.PadRight(20)}/ {h.Grade?.Name}";
+            };
+
             if (_cmbHandler.Items.Count > 0)
                 _cmbHandler.SelectedIndex = 0;
         }
     }
+
 
     private async Task SaveAsync()
     {

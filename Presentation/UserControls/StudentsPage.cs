@@ -41,17 +41,17 @@ namespace Presentation.UserControls
             var headerPanel = new Panel { Dock = DockStyle.Top, Height = 120, BackColor = Color.Transparent, Padding = new Padding(0, 0, 0, 8) };
             var lblTitle = new SectionLabel { Text = "Students", Location = new Point(0, 0) };
             _lblCount = new Label { Font = AppTheme.FontSmall, ForeColor = AppTheme.TextMuted, BackColor = Color.Transparent, AutoSize = true, Location = new Point(0, 36) };
-            //var toolbar = new Panel { Height = 48, BackColor = Color.Transparent, Location = new Point(0, 60) };
-            var toolbar = new FlowLayoutPanel
-            {
-                Height = 48,
-                Dock = DockStyle.Bottom,
-                BackColor = Color.Transparent,
-                FlowDirection = FlowDirection.LeftToRight,
-                WrapContents = false,
-                AutoSize = false,
-                Padding = new Padding(0, 5, 0, 0)
-            };
+            var toolbar = new Panel { Height = 48, BackColor = Color.Transparent, Location = new Point(0, 60), Width = 600 };
+            //var toolbar = new FlowLayoutPanel
+            //{
+            //    Height = 48,
+            //    Dock = DockStyle.Bottom,
+            //    BackColor = Color.Transparent,
+            //    FlowDirection = FlowDirection.LeftToRight,
+            //    WrapContents = false,
+            //    AutoSize = false,
+            //    Padding = new Padding(0, 5, 0, 0)
+            //};
 
             _txtSearch = new StyledTextBox { Width = 260, Height = AppTheme.InputHeight, Placeholder = "🔍  Search by name or code...", Location = new Point(0, 5) };
             _txtSearch.Inner.TextChanged += async (s, e) => await ApplyFilterAsync();

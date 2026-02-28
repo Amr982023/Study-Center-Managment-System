@@ -50,7 +50,17 @@ namespace Presentation.UserControls
             var headerPanel = new Panel { Dock = DockStyle.Top, Height = 120, BackColor = Color.Transparent, Padding = new Padding(0, 0, 0, 8) };
             var lblTitle = new SectionLabel { Text = "Groups", Location = new Point(0, 0) };
             _lblCount = new Label { Font = AppTheme.FontSmall, ForeColor = AppTheme.TextMuted, BackColor = Color.Transparent, AutoSize = true, Location = new Point(0, 36) };
-            var toolbar = new Panel { Height = 48, BackColor = Color.Transparent, Location = new Point(0, 60) };
+            var toolbar = new Panel { Height = 48, BackColor = Color.Transparent, Location = new Point(0, 60), Width = 600 };
+            //var toolbar = new FlowLayoutPanel
+            //{
+            //    Height = 48,
+            //    Dock = DockStyle.Bottom,
+            //    BackColor = Color.Transparent,
+            //    FlowDirection = FlowDirection.LeftToRight,
+            //    WrapContents = false,
+            //    AutoSize = false,
+            //    Padding = new Padding(0, 5, 0, 0)
+            //};
 
             _txtSearch = new StyledTextBox
             {
@@ -76,6 +86,7 @@ namespace Presentation.UserControls
             _grid = new StyledDataGridView { Dock = DockStyle.Fill };
             _grid.Columns.AddRange(
                 new DataGridViewTextBoxColumn { HeaderText = "ID", Name = "Id", FillWeight = 8 },
+                new DataGridViewTextBoxColumn { Name = "GradeId", Visible = false },
                 new DataGridViewTextBoxColumn { HeaderText = "Group Name", Name = "Name", FillWeight = 22 },
                 new DataGridViewTextBoxColumn { HeaderText = "Subject", Name = "Subject", FillWeight = 20 },
                 new DataGridViewTextBoxColumn { HeaderText = "Grade", Name = "Grade", FillWeight = 15 },
@@ -152,7 +163,9 @@ namespace Presentation.UserControls
             foreach (var g in groups)
             {
                 _grid.Rows.Add(
-                    g.Id, g.Name,
+                    g.Id, 
+                    g.SubjectGrade.Grade?.Id,
+                    g.Name,
                     g.SubjectGrade?.Subject?.Name ?? "-",
                     g.SubjectGrade?.Grade?.Name ?? "-",
                     g.SubjectGrade?.SessionFees.ToString("C") ?? "-",
@@ -190,6 +203,11 @@ namespace Presentation.UserControls
                 ? (int?)_grid.SelectedRows[0].Cells["Id"].Value
                 : null;
 
+        private int? GetSelectedGradeId() => 
+            _grid.SelectedRows.Count > 0
+                ? (int?)_grid.SelectedRows[0].Cells["GradeId"].Value
+                : null;
+
         private void OpenGroupDialog(int? id)
         {
             var dlg = Program.ServiceLocator.Resolve<GroupDialog>();
@@ -200,9 +218,11 @@ namespace Presentation.UserControls
 
         private void OpenEnrollDialog()
         {
-            if (GetSelectedId() is not int id) return;
+            if (GetSelectedId() is not int groupId) return;
+            if (GetSelectedGradeId() is not int gradeId) return; 
             var dlg = Program.ServiceLocator.Resolve<EnrollStudentDialog>();
-            dlg.GroupId = id;
+            dlg.GroupId = groupId;
+            dlg.GradeId = gradeId; 
             dlg.ShowDialog();
         }
 

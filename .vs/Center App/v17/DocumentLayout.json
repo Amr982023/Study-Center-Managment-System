@@ -3,56 +3,76 @@
   "WorkspaceRootPath": "E:\\Work\\Amr\\Study-Center-Managment-System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|e:\\work\\amr\\study-center-managment-system\\presentation\\enrollstudentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\enrollstudentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|E:\\Work\\Amr\\Study-Center-Managment-System\\presentation\\enrollstudentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\enrollstudentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|e:\\work\\amr\\study-center-managment-system\\presentation\\controls\\styleddatagridview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controls\\styleddatagridview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|e:\\work\\amr\\study-center-managment-system\\presentation\\usercontrols\\studentspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\usercontrols\\studentspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|e:\\work\\amr\\study-center-managment-system\\application\\services\\studentgroupaggregationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\services\\studentgroupaggregationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|e:\\work\\amr\\study-center-managment-system\\infrastructure\\repository\\generic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\generic\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|e:\\work\\amr\\study-center-managment-system\\infrastructure\\repository\\studentgroupaggregationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\studentgroupaggregationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|E:\\Work\\Amr\\Study-Center-Managment-System\\presentation\\usercontrols\\studentspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\usercontrols\\studentspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|e:\\work\\amr\\study-center-managment-system\\infrastructure\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|e:\\work\\amr\\study-center-managment-system\\presentation\\usercontrols\\groupspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\usercontrols\\groupspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|e:\\work\\amr\\study-center-managment-system\\presentation\\groupdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\groupdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|e:\\work\\amr\\study-center-managment-system\\infrastructure\\repository\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|e:\\work\\amr\\study-center-managment-system\\application\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|e:\\work\\amr\\study-center-managment-system\\presentation\\studentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\studentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|e:\\work\\amr\\study-center-managment-system\\presentation\\controls\\ghostbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controls\\ghostbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|e:\\work\\amr\\study-center-managment-system\\infrastructure\\repository\\subjectgradehandlerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\subjectgradehandlerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|e:\\work\\amr\\study-center-managment-system\\presentation\\studentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\studentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|e:\\work\\amr\\study-center-managment-system\\application\\services\\subjectgradehandlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\services\\subjectgradehandlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|e:\\work\\amr\\study-center-managment-system\\presentation\\controls\\roundedbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controls\\roundedbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|E:\\Work\\Amr\\Study-Center-Managment-System\\presentation\\groupdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\groupdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|e:\\work\\amr\\study-center-managment-system\\domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|E:\\Work\\Amr\\Study-Center-Managment-System\\presentation\\usercontrols\\groupspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\usercontrols\\groupspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|e:\\work\\amr\\study-center-managment-system\\domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|e:\\work\\amr\\study-center-managment-system\\infrastructure\\configurations\\personconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configurations\\personconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|e:\\work\\amr\\study-center-managment-system\\domain\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|e:\\work\\amr\\study-center-managment-system\\infrastructure\\centerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\centerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|e:\\work\\amr\\study-center-managment-system\\presentation\\mainshell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\mainshell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|e:\\work\\amr\\study-center-managment-system\\presentation\\enrollstudentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\enrollstudentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|e:\\work\\amr\\study-center-managment-system\\presentation\\usercontrols\\studentspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\usercontrols\\studentspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|E:\\Work\\Amr\\Study-Center-Managment-System\\presentation\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -70,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,175 +106,226 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "StyledDataGridView.cs",
               "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\Controls\\StyledDataGridView.cs",
               "RelativeDocumentMoniker": "Presentation\\Controls\\StyledDataGridView.cs",
-              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\Controls\\StyledDataGridView.cs*",
-              "RelativeToolTip": "Presentation\\Controls\\StyledDataGridView.cs*",
-              "ViewState": "AgIAABkAAAAAAAAAAAAcwCAAAABJAAAAAAAAAA==",
+              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\Controls\\StyledDataGridView.cs",
+              "RelativeToolTip": "Presentation\\Controls\\StyledDataGridView.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T06:11:59.637Z",
+              "WhenOpened": "2026-02-28T11:50:31.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "RoundedButton.cs",
-              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\Controls\\RoundedButton.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controls\\RoundedButton.cs",
-              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\Controls\\RoundedButton.cs",
-              "RelativeToolTip": "Presentation\\Controls\\RoundedButton.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAA0wGgAAAAFAAAAAAAAAA==",
+              "Title": "StudentGroupAggregationRepository.cs",
+              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Infrastructure\\Repository\\StudentGroupAggregationRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\StudentGroupAggregationRepository.cs",
+              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Infrastructure\\Repository\\StudentGroupAggregationRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\StudentGroupAggregationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T05:31:59.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GhostButton.cs",
-              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\Controls\\GhostButton.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controls\\GhostButton.cs",
-              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\Controls\\GhostButton.cs",
-              "RelativeToolTip": "Presentation\\Controls\\GhostButton.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwB4AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T05:29:02.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StudentDialog.cs [Design]",
-              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\StudentDialog.cs",
-              "RelativeDocumentMoniker": "Presentation\\StudentDialog.cs",
-              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\StudentDialog.cs [Design]",
-              "RelativeToolTip": "Presentation\\StudentDialog.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T05:25:27.75Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-02-28T05:32:33.271Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Domain\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\User.cs",
-              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Domain\\Models\\User.cs",
-              "RelativeToolTip": "Domain\\Models\\User.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAuwCUAAAAAAAAAAAAAAA==",
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Infrastructure\\Repository\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\StudentRepository.cs",
+              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Infrastructure\\Repository\\StudentRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\StudentRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T04:51:56.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-28T05:19:13.385Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Student.cs",
-              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Domain\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Student.cs",
-              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Domain\\Models\\Student.cs",
-              "RelativeToolTip": "Domain\\Models\\Student.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwDMAAAABAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "StudentGroupAggregationService.cs",
+              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Application\\Services\\StudentGroupAggregationService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\StudentGroupAggregationService.cs",
+              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Application\\Services\\StudentGroupAggregationService.cs",
+              "RelativeToolTip": "Application\\Services\\StudentGroupAggregationService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T04:51:29.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Person.cs",
-              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Domain\\Models\\Person.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Person.cs",
-              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Domain\\Models\\Person.cs",
-              "RelativeToolTip": "Domain\\Models\\Person.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA9wBwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T04:51:11.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CenterDbContext.cs",
-              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Infrastructure\\CenterDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\CenterDbContext.cs",
-              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Infrastructure\\CenterDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\CenterDbContext.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwDsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T04:43:16.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PersonConfiguration.cs",
-              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Infrastructure\\Configurations\\PersonConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Configurations\\PersonConfiguration.cs",
-              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Infrastructure\\Configurations\\PersonConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Configurations\\PersonConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T04:35:42.032Z",
+              "WhenOpened": "2026-02-28T03:49:14.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "EnrollStudentDialog.cs [Design]",
+              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\EnrollStudentDialog.cs",
+              "RelativeDocumentMoniker": "Presentation\\EnrollStudentDialog.cs",
+              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\EnrollStudentDialog.cs [Design]*",
+              "RelativeToolTip": "Presentation\\EnrollStudentDialog.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T03:44:44.749Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GroupRepository.cs",
+              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Infrastructure\\Repository\\GroupRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\GroupRepository.cs",
+              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Infrastructure\\Repository\\GroupRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\GroupRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T03:26:35.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GroupService.cs",
+              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Application\\Services\\GroupService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\GroupService.cs",
+              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Application\\Services\\GroupService.cs",
+              "RelativeToolTip": "Application\\Services\\GroupService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAtwDwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T03:25:08.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Infrastructure\\Repository\\Generic\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\Generic\\GenericRepository.cs",
+              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Infrastructure\\Repository\\Generic\\GenericRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\Generic\\GenericRepository.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T12:07:58.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SubjectGradeHandlerRepository.cs",
+              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Infrastructure\\Repository\\SubjectGradeHandlerRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\SubjectGradeHandlerRepository.cs",
+              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Infrastructure\\Repository\\SubjectGradeHandlerRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\SubjectGradeHandlerRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T12:07:31.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SubjectGradeHandlerService.cs",
+              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Application\\Services\\SubjectGradeHandlerService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\SubjectGradeHandlerService.cs",
+              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Application\\Services\\SubjectGradeHandlerService.cs",
+              "RelativeToolTip": "Application\\Services\\SubjectGradeHandlerService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAIA0wDsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T12:00:04.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GroupDialog.cs",
+              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\GroupDialog.cs",
+              "RelativeDocumentMoniker": "Presentation\\GroupDialog.cs",
+              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\GroupDialog.cs",
+              "RelativeToolTip": "Presentation\\GroupDialog.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T11:58:21.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GroupDialog.cs [Design]",
+              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\GroupDialog.cs",
+              "RelativeDocumentMoniker": "Presentation\\GroupDialog.cs",
+              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\GroupDialog.cs [Design]",
+              "RelativeToolTip": "Presentation\\GroupDialog.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T11:58:18.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Groupspage.cs",
+              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\UserControls\\Groupspage.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserControls\\Groupspage.cs",
+              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\UserControls\\Groupspage.cs",
+              "RelativeToolTip": "Presentation\\UserControls\\Groupspage.cs",
+              "ViewState": "AgIAANEAAAAAAAAAAAAMwNoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T11:41:49.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Groupspage.cs [Design]",
+              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\UserControls\\Groupspage.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserControls\\Groupspage.cs",
+              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\UserControls\\Groupspage.cs [Design]",
+              "RelativeToolTip": "Presentation\\UserControls\\Groupspage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T11:41:46.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "StudentsPage.cs",
               "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\UserControls\\StudentsPage.cs",
               "RelativeDocumentMoniker": "Presentation\\UserControls\\StudentsPage.cs",
               "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\UserControls\\StudentsPage.cs",
               "RelativeToolTip": "Presentation\\UserControls\\StudentsPage.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAcwEMAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwDAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T14:25:24.628Z",
+              "WhenOpened": "2026-02-27T11:37:26.944Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainShell.cs",
-              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\MainShell.cs",
-              "RelativeDocumentMoniker": "Presentation\\MainShell.cs",
-              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\MainShell.cs",
-              "RelativeToolTip": "Presentation\\MainShell.cs",
-              "ViewState": "AgIAAPMAAAAAAAAAAADgvwcBAABJAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "StudentsPage.cs [Design]",
+              "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\UserControls\\StudentsPage.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserControls\\StudentsPage.cs",
+              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\UserControls\\StudentsPage.cs [Design]",
+              "RelativeToolTip": "Presentation\\UserControls\\StudentsPage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T14:23:16.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T11:37:18.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "EnrollStudentDialog.cs",
               "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\EnrollStudentDialog.cs",
               "RelativeDocumentMoniker": "Presentation\\EnrollStudentDialog.cs",
-              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\EnrollStudentDialog.cs",
-              "RelativeToolTip": "Presentation\\EnrollStudentDialog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAiAAAAAAAAAA==",
+              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\EnrollStudentDialog.cs*",
+              "RelativeToolTip": "Presentation\\EnrollStudentDialog.cs*",
+              "ViewState": "AgIAABQBAAAAAAAAAAAYwDMBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T14:21:33.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "StudentDialog.cs",
               "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\StudentDialog.cs",
               "RelativeDocumentMoniker": "Presentation\\StudentDialog.cs",
               "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\StudentDialog.cs",
               "RelativeToolTip": "Presentation\\StudentDialog.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAwwE8AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T14:18:48.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T14:18:48.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\LoginForm.cs",
               "RelativeDocumentMoniker": "Presentation\\LoginForm.cs",
@@ -267,15 +338,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\LoginForm.cs",
               "RelativeDocumentMoniker": "Presentation\\LoginForm.cs",
               "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\LoginForm.cs [Design]",
               "RelativeToolTip": "Presentation\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T01:48:58.564Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-02-26T01:48:58.564Z"
             }
           ]
         }

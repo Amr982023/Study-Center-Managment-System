@@ -20,7 +20,7 @@ namespace Presentation.Controls
             RowHeadersVisible = false;
             SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             MultiSelect = false;
-            ReadOnly = true;
+            ReadOnly = false;
             AllowUserToAddRows = false;
             AllowUserToDeleteRows = false;
             AllowUserToResizeRows = false;

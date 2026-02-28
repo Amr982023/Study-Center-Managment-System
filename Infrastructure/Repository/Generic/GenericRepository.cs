@@ -37,10 +37,10 @@ namespace Infrastructure.Repository.Generic
         public async Task<T?> GetByIdAsync<TKey>(TKey id)
             => await _dbSet.FindAsync(id);
 
-        public async Task<IEnumerable<T>> GetAllAsync()
+        public virtual async Task<IEnumerable<T>> GetAllAsync()
             => await _dbSet.ToListAsync();
 
-        public async Task<IEnumerable<T>> GetAllAsync(int pageNumber, int pageSize)
+        public virtual async Task<IEnumerable<T>> GetAllAsync(int pageNumber, int pageSize)
             => await _dbSet
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)

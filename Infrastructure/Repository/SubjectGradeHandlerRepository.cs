@@ -18,7 +18,14 @@ namespace Infrastructure.Repository
         {
         }
 
-        
+        public override async Task<IEnumerable<SubjectGradeHandler>> GetAllAsync()
+        {
+            return await _dbSet
+                .Include(sgh => sgh.Subject)
+                .Include(sgh => sgh.Grade)
+                .ToListAsync();
+        }
+
         public async Task<SubjectGradeHandler?> GetAsync(int subjectId, int gradeId)
         {
             return await _dbSet
