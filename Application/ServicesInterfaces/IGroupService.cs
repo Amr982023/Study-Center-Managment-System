@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Domain.Common;
 using Domain.Models;
@@ -11,6 +9,7 @@ namespace Application.ServicesInterfaces
     public interface IGroupService
     {
         Task<Result<Group>> CreateAsync(string name, int subjectGradeHandlerId, DateTime firstSessionDate);
+        Task<Result<Group>> UpdateAsync(int id, string name, int subjectGradeHandlerId, DateTime firstSessionDate);
         Task<Result<Group>> GetByIdAsync(int id);
         Task<Result<Group>> GetWithSessionsAsync(int id);
         Task<Result<Group>> GetWithSubjectGradeDetailsAsync(int id);

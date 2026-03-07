@@ -34,3 +34,5 @@ E:\Work\Amr\Study-Center-Managment-System\Infrastructure\obj\Debug\net9.0\refint
 E:\Work\Amr\Study-Center-Managment-System\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
 E:\Work\Amr\Study-Center-Managment-System\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
 E:\Work\Amr\Study-Center-Managment-System\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
+D:\cyber security\fundamentals\Projects\Center App\Infrastructure\bin\Debug\net9.0\Application.dll
+D:\cyber security\fundamentals\Projects\Center App\Infrastructure\bin\Debug\net9.0\Application.pdb

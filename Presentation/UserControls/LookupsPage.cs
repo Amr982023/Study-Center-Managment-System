@@ -17,18 +17,21 @@ namespace Presentation.UserControls
     {
         private readonly IGradeService _gradeService;
         private readonly ISubjectService _subjectService;
+        private readonly ISubjectGradeHandlerService _handlerService;
         private readonly ISessionStatusService _sessionStatusService;
         private readonly IExamStatusService _examStatusService;
 
         public LookupsPage(
             IGradeService gradeService,
             ISubjectService subjectService,
+            ISubjectGradeHandlerService handlerService,
             ISessionStatusService sessionStatusService,
             IExamStatusService examStatusService,
             IMessageTypeService messageTypeService)
         {
             _gradeService = gradeService;
             _subjectService = subjectService;
+            _handlerService = handlerService;
             _sessionStatusService = sessionStatusService;
             _examStatusService = examStatusService;
             BackColor = Color.Transparent;
@@ -47,23 +50,52 @@ namespace Presentation.UserControls
                 Width = 900,
                 Height = 500,
                 Font = AppTheme.FontLabel,
+
                 DrawMode = TabDrawMode.OwnerDrawFixed,
+                Appearance = TabAppearance.FlatButtons,
+                SizeMode = TabSizeMode.Fixed,
+
                 ItemSize = new Size(160, 36),
+                Padding = new Point(10, 4),
+
+                BackColor = AppTheme.MainBg,
                 Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right
+            };
+            tabs.Paint += (s, e) =>
+            {
+                using var brush = new SolidBrush(AppTheme.MainBg);
+                e.Graphics.FillRectangle(brush, tabs.ClientRectangle);
             };
 
             tabs.DrawItem += (s, e) =>
             {
                 bool active = e.Index == tabs.SelectedIndex;
-                using var bgBrush = new System.Drawing.SolidBrush(active ? AppTheme.CardBg : AppTheme.SidebarBg);
-                e.Graphics.FillRectangle(bgBrush, e.Bounds);
-                var sf = new System.Drawing.StringFormat { Alignment = System.Drawing.StringAlignment.Center, LineAlignment = System.Drawing.StringAlignment.Center };
-                using var fgBrush = new System.Drawing.SolidBrush(active ? AppTheme.Tangerine : AppTheme.TextSecondary);
-                e.Graphics.DrawString(tabs.TabPages[e.Index].Text, active ? AppTheme.FontLabelBold : AppTheme.FontLabel, fgBrush, e.Bounds, sf);
-            };
 
+                var rect = tabs.GetTabRect(e.Index);
+                rect.Inflate(-2, -2);
+
+                using var bg = new SolidBrush(active ? AppTheme.CardBg : AppTheme.SidebarBg);
+                e.Graphics.FillRectangle(bg, rect);
+
+                var sf = new StringFormat
+                {
+                    Alignment = StringAlignment.Center,
+                    LineAlignment = StringAlignment.Center
+                };
+
+                using var fg = new SolidBrush(active ? AppTheme.Tangerine : AppTheme.TextSecondary);
+
+                e.Graphics.DrawString(
+                    tabs.TabPages[e.Index].Text,
+                    active ? AppTheme.FontLabelBold : AppTheme.FontLabel,
+                    fg,
+                    rect,
+                    sf);
+            };
+            tabs.Multiline = false;
             tabs.TabPages.Add(BuildTab("Grades", LoadGrades, AddGrade, DeleteGrade));
             tabs.TabPages.Add(BuildTab("Subjects", LoadSubjects, AddSubject, DeleteSubject));
+            tabs.TabPages.Add(BuildSubjectGradeTab());
             tabs.TabPages.Add(BuildTab("Session Statuses", LoadSessionStatuses, AddSessionStatus, DeleteSessionStatus));
             tabs.TabPages.Add(BuildTab("Exam Statuses", LoadExamStatuses, AddExamStatus, DeleteExamStatus));
 
@@ -153,6 +185,122 @@ namespace Presentation.UserControls
             return (r.IsSuccess, r.IsSuccess ? null : r.ErrorMessage);
         }
 
+        // ── Subject / Grade tab ───────────────────────────
+        private TabPage BuildSubjectGradeTab()
+        {
+            var page = new TabPage("Subject / Grade") { BackColor = AppTheme.MainBg, Padding = new Padding(16) };
+            var card = new CardPanel { Dock = DockStyle.Fill };
+            var inner = new Panel { Dock = DockStyle.Fill, Padding = new Padding(16), BackColor = Color.Transparent };
+
+            // ── Toolbar ──────────────────────────────────
+            var toolbar = new Panel { Height = 55, Dock = DockStyle.Top, BackColor = Color.Transparent };
+
+            var lblSubject = new Label { Text = "Subject", Font = AppTheme.FontSmall, ForeColor = AppTheme.TextSecondary, BackColor = Color.Transparent, AutoSize = true, Location = new Point(0, 0) };
+            var cmbSubject = new StyledComboBox { Width = 180, Location = new Point(0, 16) };
+
+            var lblGrade = new Label { Text = "Grade", Font = AppTheme.FontSmall, ForeColor = AppTheme.TextSecondary, BackColor = Color.Transparent, AutoSize = true, Location = new Point(196, 0) };
+            var cmbGrade = new StyledComboBox { Width = 150, Location = new Point(196, 16) };
+
+            var lblFees = new Label { Text = "Fees", Font = AppTheme.FontSmall, ForeColor = AppTheme.TextSecondary, BackColor = Color.Transparent, AutoSize = true, Location = new Point(362, 0) };
+            var txtFees = new StyledTextBox { Width = 120, Height = AppTheme.InputHeight, Placeholder = "0.00", Location = new Point(362, 11) };
+
+            var btnAdd = new RoundedButton { Text = "+ Add", Width = 90, Height = AppTheme.ButtonHeight, Location = new Point(498, 11) };
+            var lblErr = new Label { Font = AppTheme.FontSmall, ForeColor = AppTheme.Danger, BackColor = Color.Transparent, AutoSize = false, Width = 600, Height = 18, Location = new Point(0, 68) };
+
+            toolbar.Controls.AddRange(new Control[] { lblSubject, cmbSubject, lblGrade, cmbGrade, lblFees, txtFees, btnAdd, lblErr });
+
+            // ── Grid ─────────────────────────────────────
+            var grid = new StyledDataGridView
+            {
+                Dock = DockStyle.Fill,
+                AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.None,
+                ScrollBars = ScrollBars.Vertical,
+                AllowUserToResizeRows = false
+            };
+            grid.Columns.AddRange(
+                new DataGridViewTextBoxColumn { HeaderText = "ID", Name = "Id", FillWeight = 10 },
+                new DataGridViewTextBoxColumn { HeaderText = "Subject", Name = "Subject", FillWeight = 35 },
+                new DataGridViewTextBoxColumn { HeaderText = "Grade", Name = "Grade", FillWeight = 35 },
+                new DataGridViewTextBoxColumn { HeaderText = "Fees", Name = "Fees", FillWeight = 20 }
+            );
+
+
+
+            var btnDel = new DangerButton { Text = "🗑  Delete", Width = 120, Height = AppTheme.ButtonHeight, Dock = DockStyle.Bottom, Enabled = false };
+            grid.SelectionChanged += (s, e) => btnDel.Enabled = grid.SelectedRows.Count > 0;
+
+            // ── Load helpers ──────────────────────────────
+            async Task LoadDropdowns()
+            {
+                var sr = await _subjectService.GetAllAsync();
+                var gr = await _gradeService.GetAllAsync();
+                cmbSubject.Items.Clear();
+                cmbGrade.Items.Clear();
+                if (sr.IsSuccess) foreach (var s in sr.Value) cmbSubject.Items.Add(new ComboItem(s.Id, s.Name));
+                if (gr.IsSuccess) foreach (var g in gr.Value) cmbGrade.Items.Add(new ComboItem(g.Id, g.Name));
+                if (cmbSubject.Items.Count > 0) cmbSubject.SelectedIndex = 0;
+                if (cmbGrade.Items.Count > 0) cmbGrade.SelectedIndex = 0;
+            }
+
+            async Task Refresh()
+            {
+                var r = await _handlerService.GetAllAsync();
+                grid.Rows.Clear();
+                if (r.IsSuccess)
+                    foreach (var h in r.Value)
+                        grid.Rows.Add(h.Id, h.Subject?.Name ?? "-", h.Grade?.Name ?? "-", h.SessionFees.ToString("C"));
+                else
+                    lblErr.Text = r.ErrorMessage ?? "Failed to load.";
+            }
+
+            // ── Add ───────────────────────────────────────
+            btnAdd.Click += async (s, e) =>
+            {
+                lblErr.Text = "";
+                if (cmbSubject.SelectedItem is not ComboItem subj) { lblErr.Text = "Select a subject."; return; }
+                if (cmbGrade.SelectedItem is not ComboItem grade) { lblErr.Text = "Select a grade."; return; }
+                if (!decimal.TryParse(txtFees.Text, out var fees)) { lblErr.Text = "Enter a valid fees amount."; return; }
+                var r = await _handlerService.CreateAsync(subj.Id, grade.Id, fees);
+                if (r.IsSuccess) { txtFees.Text = ""; await Refresh(); }
+                else lblErr.Text = r.ErrorMessage ?? "Failed to add.";
+            };
+
+            // ── Delete ────────────────────────────────────
+            btnDel.Click += async (s, e) =>
+            {
+                if (grid.SelectedRows.Count == 0) return;
+                if (MessageBox.Show("Delete this Subject/Grade link?", "Confirm",
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Warning) != DialogResult.Yes) return;
+                var id = (int)grid.SelectedRows[0].Cells["Id"].Value;
+                var r = await _handlerService.DeleteAsync(id);
+                if (r.IsSuccess) await Refresh();
+                else lblErr.Text = r.ErrorMessage ?? "Failed to delete.";
+            };
+
+            inner.Controls.AddRange(new Control[] { toolbar, grid, btnDel });
+            card.Controls.Add(inner);
+            page.Controls.Add(card);
+
+            page.Enter += async (s, e) => { await LoadDropdowns(); await Refresh(); };
+            _ = Task.Run(async () =>
+            {
+                await Task.Delay(200); // wait for handle
+                if (page.IsHandleCreated)
+                    page.Invoke(async () => { await LoadDropdowns(); await Refresh(); });
+            });
+
+            return page;
+        }
+
+        // Small helper to bind Id+Name in a ComboBox
+        private sealed class ComboItem
+        {
+            public int Id { get; }
+            public string Name { get; }
+            public ComboItem(int id, string name) { Id = id; Name = name; }
+            public override string ToString() => Name;
+        }
+
         // ── Tab builder — takes simple async delegates ─────
         private TabPage BuildTab(
             string title,
@@ -165,7 +313,13 @@ namespace Presentation.UserControls
             var inner = new Panel { Dock = DockStyle.Fill, Padding = new Padding(16), BackColor = Color.Transparent };
 
             // Toolbar
-            var toolbar = new Panel { Height = 64, Dock = DockStyle.Top, BackColor = Color.Transparent };
+            var toolbar = new Panel
+            {
+                Height = 50,
+                Dock = DockStyle.Top,
+                Margin = new Padding(0, 0, 0, 4),
+                BackColor = Color.Transparent
+            };
             var txtNew = new StyledTextBox { Width = 280, Height = AppTheme.InputHeight, Placeholder = $"New {title.TrimEnd('s')}...", Location = new Point(0, 4) };
             var btnAdd = new RoundedButton { Text = "+ Add", Width = 90, Height = AppTheme.ButtonHeight, Location = new Point(296, 4) };
             var lblErr = new Label { Font = AppTheme.FontSmall, ForeColor = AppTheme.Danger, BackColor = Color.Transparent, AutoSize = false, Width = 500, Height = 18, Location = new Point(0, 48) };
@@ -173,10 +327,12 @@ namespace Presentation.UserControls
 
             // Grid
             var grid = new StyledDataGridView { Dock = DockStyle.Fill };
+            grid.Margin = new Padding(0, 6, 0, 6);
             grid.Columns.AddRange(
                 new DataGridViewTextBoxColumn { HeaderText = "ID", Name = "Id", FillWeight = 15 },
                 new DataGridViewTextBoxColumn { HeaderText = "Name", Name = "Name", FillWeight = 85 }
             );
+
 
             // Delete button
             var btnDel = new DangerButton { Text = "🗑  Delete", Width = 120, Height = AppTheme.ButtonHeight, Dock = DockStyle.Bottom, Enabled = false };

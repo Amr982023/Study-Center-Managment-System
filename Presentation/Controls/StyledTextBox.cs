@@ -82,21 +82,30 @@ namespace Presentation.Controls
             Region = new Region(path);
         }
 
+        protected override void OnPaintBackground(PaintEventArgs e)
+        {
+            if (Parent != null)
+            {
+                using var bg = new SolidBrush(Parent.BackColor);
+                e.Graphics.FillRectangle(bg, ClientRectangle);
+            }
+        }
+
         protected override void OnPaint(PaintEventArgs e)
         {
-            e.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
+            var g = e.Graphics;
+            g.SmoothingMode = SmoothingMode.AntiAlias;
 
-            // Fill background
             var rect = new Rectangle(0, 0, Width - 1, Height - 1);
             using var path = RoundedPath(rect, RAD);
             using var bg = new SolidBrush(AppTheme.InputBg);
-            e.Graphics.FillPath(bg, path);
+            g.FillPath(bg, path);
 
             // Border — tangerine when focused, subtle when not
             Color borderColor = _isFocused ? AppTheme.Tangerine : AppTheme.Border;
             float borderWidth = _isFocused ? 2f : 1.5f;
             using var pen = new Pen(borderColor, borderWidth);
-            e.Graphics.DrawPath(pen, path);
+            g.DrawPath(pen, path);
         }
 
         private static GraphicsPath RoundedPath(Rectangle r, int rad)

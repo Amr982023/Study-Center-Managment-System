@@ -67,6 +67,9 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("DateTime")
                         .HasColumnType("datetime2");
 
+                    b.Property<DateTime>("ExamDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("FullMark")
                         .HasColumnType("int");
 
@@ -436,6 +439,9 @@ namespace Infrastructure.Migrations
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("GradeId")
                         .HasColumnType("int");

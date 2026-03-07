@@ -10,7 +10,7 @@ namespace Application.ServicesInterfaces
 {
     public interface IExamService
     {
-        Task<Result<Exam>> CreateAsync(int groupId, string name, int fullMark);
+        Task<Result<Exam>> CreateAsync(int groupId, string name, int fullMark, DateTime examDate);
         Task<Result<Exam>> GetByIdAsync(int id);
         Task<Result<IEnumerable<Exam>>> GetAllAsync();
         Task<Result<IEnumerable<Exam>>> GetByGroupAsync(int groupId);

@@ -4,10 +4,12 @@ using System.Drawing;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Application.ServicesInterfaces;
+using Application.Validation;
 using Presentation.Controls;
 using Presentation.Theme;
 using System.ComponentModel;
 using Domain.Models;
+using Domain.Common;
 
 namespace Presentation.Forms
 {
@@ -25,6 +27,7 @@ namespace Presentation.Forms
         private StyledTextBox _txtPhone;
         private StyledTextBox _txtGuardianPhone;
         private StyledTextBox _txtCode;
+        private StyledTextBox _txtEmail;
         private StyledComboBox _cmbGender;
         private StyledComboBox _cmbGrade;
         private RoundedButton _btnSave;
@@ -40,19 +43,19 @@ namespace Presentation.Forms
 
         private void InitializeUI()
         {
-            Text = StudentId.HasValue ? "Edit Student" : "Add New Student";
-            Size = new Size(520, 520);
+            Text = "Student";
+            Size = new Size(520, 600);
             StartPosition = FormStartPosition.CenterParent;
             BackColor = AppTheme.CardBg;
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
             MinimizeBox = false;
 
-            var lblTitle = new Label { Text = StudentId.HasValue ? "Edit Student" : "Add New Student", Font = AppTheme.FontH2, ForeColor = AppTheme.TextPrimary, BackColor = Color.Transparent, AutoSize = true, Location = new Point(24, 20) };
+            var lblTitle = new Label { Text = "Student", Font = AppTheme.FontH2, ForeColor = AppTheme.TextPrimary, BackColor = Color.Transparent, AutoSize = true, Location = new Point(24, 20) };
             var divider = new Panel { Height = 1, Width = 472, BackColor = AppTheme.Border, Location = new Point(24, 56) };
 
             int c1 = 24, c2 = 272;
-            int r1 = 74, r2 = 150, r3 = 226, r4 = 302;
+            int r1 = 74, r2 = 150, r3 = 226, r4 = 302, r5 = 378;
 
             var l1 = L("First Name *", c1, r1); _txtFirstName = TB(c1, r1, 200);
             var l2 = L("Middle Name", c2, r1); _txtMidName = TB(c2, r1, 200);
@@ -60,39 +63,37 @@ namespace Presentation.Forms
             var l4 = L("Student Code *", c2, r2); _txtCode = TB(c2, r2, 200);
             var l5 = L("Personal Phone *", c1, r3); _txtPhone = TB(c1, r3, 200);
             var l6 = L("Guardian Phone", c2, r3); _txtGuardianPhone = TB(c2, r3, 200);
+            var l7 = L("Email", c1, r4); _txtEmail = TB(c1, r4, 448);
 
-            var l7 = L("Grade *", c1, r4);
-            _cmbGrade = new StyledComboBox { Width = 200, Location = new Point(c1, r4 + 22) };
+            var l8 = L("Grade *", c1, r5);
+            _cmbGrade = new StyledComboBox { Width = 200, Location = new Point(c1, r5 + 22) };
 
-            var l8 = L("Gender *", c2, r4);
-            _cmbGender = new StyledComboBox { Width = 200, Location = new Point(c2, r4 + 22) };
+            var l9 = L("Gender *", c2, r5);
+            _cmbGender = new StyledComboBox { Width = 200, Location = new Point(c2, r5 + 22) };
             _cmbGender.Items.AddRange(new object[] { "Male", "Female" });
             _cmbGender.SelectedIndex = 0;
 
-            _lblError = new Label { Font = AppTheme.FontSmall, ForeColor = AppTheme.Danger, BackColor = Color.Transparent, AutoSize = false, Width = 460, Height = 18, Location = new Point(24, 390), TextAlign = ContentAlignment.MiddleLeft };
+            _lblError = new Label { Font = AppTheme.FontSmall, ForeColor = AppTheme.Danger, BackColor = Color.Transparent, AutoSize = false, Width = 460, Height = 18, Location = new Point(24, 466), TextAlign = ContentAlignment.MiddleLeft };
 
-            _btnSave = new RoundedButton { Text = StudentId.HasValue ? "Save Changes" : "Add Student", Width = 160, Height = AppTheme.ButtonHeight, Location = new Point(24, 416) };
+            _btnSave = new RoundedButton { Text = "Add Student", Width = 160, Height = AppTheme.ButtonHeight, Location = new Point(24, 490) };
             _btnSave.Click += async (s, e) => await SaveAsync();
 
-            _btnCancel = new GhostButton
-            {
-                Text = "Cancel",
-                Width = 110,
-                Height = AppTheme.ButtonHeight,
-                Location = new Point(196, 416),
-                NormalColor = Color.Orange,           // ← idle color
-                HoverColor = Color.DarkOrange,        // ← hover color
-                TextColor = Color.White               // ← text/border color
-            };  
+            _btnCancel = new GhostButton { Text = "Cancel", Width = 110, Height = AppTheme.ButtonHeight, Location = new Point(196, 490) };
             _btnCancel.Click += (s, e) => { DialogResult = DialogResult.Cancel; Close(); };
 
-            Controls.AddRange(new Control[] { lblTitle, divider, l1, _txtFirstName, l2, _txtMidName, l3, _txtLastName, l4, _txtCode, l5, _txtPhone, l6, _txtGuardianPhone, l7, _cmbGrade, l8, _cmbGender, _lblError, _btnSave, _btnCancel });
+            Controls.AddRange(new Control[] { lblTitle, divider, l1, _txtFirstName, l2, _txtMidName, l3, _txtLastName, l4, _txtCode, l5, _txtPhone, l6, _txtGuardianPhone, l7, _txtEmail, l8, _cmbGrade, l9, _cmbGender, _lblError, _btnSave, _btnCancel });
 
             Load += async (s, e) => await OnLoadAsync();
         }
 
         private async Task OnLoadAsync()
         {
+            // Update title and button now that StudentId is set
+            Text = StudentId.HasValue ? "Edit Student" : "Add New Student";
+            _btnSave.Text = StudentId.HasValue ? "Save Changes" : "Add Student";
+            foreach (Control c in Controls)
+                if (c is Label lbl && lbl.Font.Size >= 17)
+                { lbl.Text = StudentId.HasValue ? "Edit Student" : "Add New Student"; break; }
             var grades = await _gradeService.GetAllAsync();
             if (grades.IsSuccess)
             {
@@ -114,6 +115,7 @@ namespace Presentation.Forms
                     _txtCode.Text = s.Code;
                     _txtPhone.Text = s.PersonalPhone;
                     _txtGuardianPhone.Text = s.GuardianPhone;
+                    _txtEmail.Text = s.Email ?? "";
                     _cmbGender.SelectedItem = s.Gender;
                     foreach (var item in _cmbGrade.Items)
                         if (item is Grade g && g.Id == s.Grade?.Id) { _cmbGrade.SelectedItem = g; break; }
@@ -124,9 +126,34 @@ namespace Presentation.Forms
         private async Task SaveAsync()
         {
             _lblError.Text = "";
-            if (string.IsNullOrWhiteSpace(_txtFirstName.Text) || string.IsNullOrWhiteSpace(_txtLastName.Text) ||
-                string.IsNullOrWhiteSpace(_txtCode.Text) || string.IsNullOrWhiteSpace(_txtPhone.Text))
-            { _lblError.Text = "Please fill in all required fields (*)."; return; }
+
+            // Required fields
+            var reqErr = Validator.ValidateAllRequired(
+                (_txtFirstName.Text, "First name"),
+                (_txtLastName.Text, "Last name"),
+                (_txtCode.Text, "Code"),
+                (_txtPhone.Text, "Phone"));
+            if (reqErr != null) { _lblError.Text = reqErr; return; }
+
+            // Phone validation
+            var phoneErr = Validator.ValidatePhone(_txtPhone.Text.Trim());
+            if (phoneErr != null) { _lblError.Text = phoneErr; return; }
+
+            // Guardian phone optional
+            var guardianPhone = _txtGuardianPhone.Text.Trim();
+            if (!string.IsNullOrWhiteSpace(guardianPhone))
+            {
+                var gErr = Validator.ValidatePhone(guardianPhone);
+                if (gErr != null) { _lblError.Text = "Guardian " + gErr; return; }
+            }
+
+            // Email optional
+            var email = _txtEmail.Text.Trim();
+            if (!string.IsNullOrWhiteSpace(email))
+            {
+                var eErr = Validator.ValidateEmail(email);
+                if (eErr != null) { _lblError.Text = eErr; return; }
+            }
 
             if (_cmbGrade.SelectedItem is not Grade grade)
             { _lblError.Text = "Please select a grade."; return; }
@@ -134,17 +161,27 @@ namespace Presentation.Forms
             _btnSave.Enabled = false;
             try
             {
+                Result<Student> r;
+
                 if (StudentId.HasValue)
                 {
-                    _lblError.Text = "Edit not yet wired — implement UpdateAsync in service.";
-                    return;
+                    r = await _studentService.UpdateAsync(
+                        StudentId.Value,
+                        _txtFirstName.Text.Trim(), _txtLastName.Text.Trim(),
+                        _txtPhone.Text.Trim(), _cmbGender.SelectedItem?.ToString() ?? "Male",
+                        _txtCode.Text.Trim(), guardianPhone, grade.Id,
+                        string.IsNullOrWhiteSpace(_txtMidName.Text) ? null : _txtMidName.Text.Trim(),
+                        string.IsNullOrWhiteSpace(email) ? null : email);
                 }
-
-                var r = await _studentService.CreateAsync(
-                    _txtFirstName.Text.Trim(), _txtLastName.Text.Trim(),
-                    _txtPhone.Text.Trim(), _cmbGender.SelectedItem?.ToString() ?? "Male",
-                    _txtCode.Text.Trim(), _txtGuardianPhone.Text.Trim(), grade.Id,
-                    string.IsNullOrWhiteSpace(_txtMidName.Text) ? null : _txtMidName.Text.Trim());
+                else
+                {
+                    r = await _studentService.CreateAsync(
+                        _txtFirstName.Text.Trim(), _txtLastName.Text.Trim(),
+                        _txtPhone.Text.Trim(), _cmbGender.SelectedItem?.ToString() ?? "Male",
+                        _txtCode.Text.Trim(), guardianPhone, grade.Id,
+                        string.IsNullOrWhiteSpace(_txtMidName.Text) ? null : _txtMidName.Text.Trim(),
+                        string.IsNullOrWhiteSpace(email) ? null : email);
+                }
 
                 if (!r.IsSuccess) { _lblError.Text = r.ErrorMessage; return; }
                 DialogResult = DialogResult.OK;

@@ -172,6 +172,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Application.csproj": {
+                "projectPath": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Application.csproj"
+              },
               "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Domain.csproj": {
                 "projectPath": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Domain.csproj"
               }
@@ -288,6 +291,18 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.12, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.12, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[9.0.12, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[9.0.12, )"
             },

@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿#nullable disable
+using System;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Application.Email;
 using Application.ServicesInterfaces;
 using Domain.Models;
 using Presentation.Controls;
@@ -20,6 +18,7 @@ namespace Presentation
         private readonly IExamStatusService _statusService;
         private readonly IStudentGroupAggregationService _enrollService;
         private readonly IExamService _examService;
+        private readonly EmailNotificationService _emailService;
 
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public int ExamId { get; set; }
@@ -34,12 +33,15 @@ namespace Presentation
         private Label _lblInfo;
         private Label _lblError;
 
-        public ExamResultsDialog(IExamResultService resultService, IExamStatusService statusService, IStudentGroupAggregationService enrollService, IExamService examService)
+        public ExamResultsDialog(IExamResultService resultService, IExamStatusService statusService,
+                                 IStudentGroupAggregationService enrollService, IExamService examService,
+                                 EmailNotificationService emailService)
         {
             _resultService = resultService;
             _statusService = statusService;
             _enrollService = enrollService;
             _examService = examService;
+            _emailService = emailService;
             InitUI();
         }
 
@@ -148,8 +150,18 @@ namespace Presentation
             if (_cmbStatus.SelectedItem is not ExamStatus st) { _lblError.Text = "Select a status."; return; }
 
             var r = await _resultService.CreateAsync(ExamId, s.Id, st.Id, score, _chkExceed.Checked);
-            if (r.IsSuccess) await RefreshGridAsync();
-            else _lblError.Text = r.ErrorMessage;
+            if (!r.IsSuccess) { _lblError.Text = r.ErrorMessage; return; }
+
+            // Send exam result email — silent if student has no email
+            var exam = await _examService.GetByIdAsync(ExamId);
+            if (exam.IsSuccess)
+            {
+                var (sent, error) = await _emailService.SendExamResultAsync(s, exam.Value, r.Value);
+                if (!sent && !string.IsNullOrWhiteSpace(error) && error != "Student has no email address.")
+                    _lblError.Text = $"Result saved. Email failed: {error}";
+            }
+
+            await RefreshGridAsync();
         }
 
         private async Task DeleteAsync()
@@ -160,7 +172,7 @@ namespace Presentation
             await RefreshGridAsync();
         }
 
-        private static Label Lbl(string t, int x, int y) => new Label { Text = t, Font = AppTheme.FontLabelBold, ForeColor = AppTheme.TextSecondary, BackColor = Color.Transparent, AutoSize = true, Location = new Point(x, y) };
+        private static Label Lbl(string t, int x, int y) =>
+            new Label { Text = t, Font = AppTheme.FontLabelBold, ForeColor = AppTheme.TextSecondary, BackColor = Color.Transparent, AutoSize = true, Location = new Point(x, y) };
     }
 }
-

@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
+using System.Drawing;
 using System.Drawing.Drawing2D;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Windows.Forms;
 using Presentation.Theme;
 
 namespace Presentation.Controls
@@ -23,36 +21,71 @@ namespace Presentation.Controls
         public CardPanel()
         {
             BackColor = Color.Transparent;
-            SetStyle(ControlStyles.UserPaint | ControlStyles.AllPaintingInWmPaint |
-                     ControlStyles.DoubleBuffer | ControlStyles.SupportsTransparentBackColor, true);
+            SetStyle(
+                ControlStyles.UserPaint |
+                ControlStyles.AllPaintingInWmPaint |
+                ControlStyles.DoubleBuffer |
+                ControlStyles.SupportsTransparentBackColor |
+                ControlStyles.ResizeRedraw,
+                true);
+        }
+
+        protected override void OnResize(EventArgs e)
+        {
+            base.OnResize(e);
+            if (Width > 0 && Height > 0)
+            {
+                using var path = RoundedPath(new Rectangle(0, 0, Width, Height), CornerRadius);
+                Region = new Region(path);
+            }
+        }
+
+        protected override void OnPaintBackground(PaintEventArgs e)
+        {
+            // Paint parent background into corners so rounded edges look transparent
+            if (Parent != null)
+            {
+                using var bg = new SolidBrush(Parent.BackColor);
+                e.Graphics.FillRectangle(bg, ClientRectangle);
+            }
         }
 
         protected override void OnPaint(PaintEventArgs e)
         {
-            e.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
+            var g = e.Graphics;
+            g.SmoothingMode = SmoothingMode.AntiAlias;
+            g.CompositingQuality = CompositingQuality.HighSpeed; // faster compositing
+            g.InterpolationMode = InterpolationMode.Low;
+
             var rect = new Rectangle(1, 1, Width - 2, Height - 2);
             using var path = RoundedPath(rect, CornerRadius);
             using var bg = new SolidBrush(CardColor);
-            e.Graphics.FillPath(bg, path);
+            g.FillPath(bg, path);
+
             if (ShowBorder)
             {
                 using var pen = new Pen(AppTheme.Border, 1f);
-                e.Graphics.DrawPath(pen, path);
+                g.DrawPath(pen, path);
             }
         }
 
-        protected override void OnPaintBackground(PaintEventArgs e) { }
+        // CRITICAL: don't propagate invalidation into children (the grid)
+        // This stops CardPanel repaints from triggering grid repaints mid-update
+        protected override void OnInvalidated(InvalidateEventArgs e)
+        {
+            base.OnInvalidated(e);
+        }
 
         private static GraphicsPath RoundedPath(Rectangle r, int rad)
         {
-            var p = new GraphicsPath(); int d = rad * 2;
+            var p = new GraphicsPath();
+            int d = rad * 2;
             p.AddArc(r.X, r.Y, d, d, 180, 90);
             p.AddArc(r.Right - d, r.Y, d, d, 270, 90);
             p.AddArc(r.Right - d, r.Bottom - d, d, d, 0, 90);
             p.AddArc(r.X, r.Bottom - d, d, d, 90, 90);
-            p.CloseFigure(); return p;
+            p.CloseFigure();
+            return p;
         }
     }
-
-
 }

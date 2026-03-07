@@ -50,15 +50,25 @@ namespace Presentation.Controls
             SetStyle(ControlStyles.UserPaint | ControlStyles.AllPaintingInWmPaint | ControlStyles.DoubleBuffer, true);
         }
 
+        protected override void OnPaintBackground(PaintEventArgs e)
+        {
+            if (Parent != null)
+            {
+                using var bg = new SolidBrush(Parent.BackColor);
+                e.Graphics.FillRectangle(bg, ClientRectangle);
+            }
+        }
+
         protected override void OnPaint(PaintEventArgs e)
         {
-            e.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
+            var g = e.Graphics;
+            g.SmoothingMode = SmoothingMode.AntiAlias;
             using var bg = new SolidBrush(BackColor);
             using var path = Pill(ClientRectangle);
-            e.Graphics.FillPath(bg, path);
+            g.FillPath(bg, path);
             var sf = new StringFormat { Alignment = StringAlignment.Center, LineAlignment = StringAlignment.Center };
             using var tb = new SolidBrush(ForeColor);
-            e.Graphics.DrawString(Text, Font, tb, ClientRectangle, sf);
+            g.DrawString(Text, Font, tb, ClientRectangle, sf);
         }
 
         private static GraphicsPath Pill(Rectangle r)
@@ -72,4 +82,5 @@ namespace Presentation.Controls
             p.CloseFigure(); return p;
         }
     }
+
 }

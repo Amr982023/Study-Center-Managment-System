@@ -19,6 +19,7 @@ namespace Presentation.UserControls
         private DangerButton _btnDelete;
         private Label _lblCount;
 
+        private CancellationTokenSource _filterCts;
         public UsersPage(IUserService userService)
         {
             _userService = userService;
@@ -33,9 +34,9 @@ namespace Presentation.UserControls
             var headerPanel = new Panel { Dock = DockStyle.Top, Height = 120, BackColor = Color.Transparent, Padding = new Padding(0, 0, 0, 8) };
             var lblTitle = new SectionLabel { Text = "System Users", Location = new Point(0, 0) };
             _lblCount = new Label { Font = AppTheme.FontSmall, ForeColor = AppTheme.TextMuted, BackColor = Color.Transparent, AutoSize = true, Location = new Point(0, 36) };
-            var toolbar = new Panel { Height = 48, BackColor = Color.Transparent, Location = new Point(0, 60) };
+            var toolbar = new Panel { Height = 48, BackColor = Color.Transparent, Location = new Point(0, 60), Width = 1000 };
             _txtSearch = new StyledTextBox { Width = 260, Height = AppTheme.InputHeight, Placeholder = "🔍  Search users...", Location = new Point(0, 5) };
-            _txtSearch.Inner.TextChanged += async (s, e) => await ApplyFilterAsync();
+            _txtSearch.Inner.TextChanged += (s, e) => ScheduleFilter();
 
             _btnAdd = new RoundedButton { Text = "+ Add User", Width = 130, Height = AppTheme.ButtonHeight, Location = new Point(276, 5) };
             _btnAdd.Click += (s, e) => OpenDialog(null);
@@ -85,7 +86,20 @@ namespace Presentation.UserControls
             UpdateButtons();
         }
 
-        private async Task ApplyFilterAsync()
+        private void ScheduleFilter()
+        {
+            _filterCts?.Cancel();
+            _filterCts?.Dispose();
+            _filterCts = new CancellationTokenSource();
+            var token = _filterCts.Token;
+            _ = Task.Delay(300, token).ContinueWith(async t =>
+            {
+                if (t.IsCanceled) return;
+                await ApplyFilterAsync(token);
+            }, TaskScheduler.FromCurrentSynchronizationContext());
+        }
+
+        private async Task ApplyFilterAsync(CancellationToken token = default)
         {
             var r = await _userService.GetAllAsync();
             if (!r.IsSuccess) return;
@@ -93,6 +107,7 @@ namespace Presentation.UserControls
             PopulateGrid(string.IsNullOrWhiteSpace(search)
                 ? r.Value
                 : r.Value.Where(u => u.UserName.ToLower().Contains(search) || u.FirstName.ToLower().Contains(search) || u.LastName.ToLower().Contains(search)));
+            if (token.IsCancellationRequested) return;
         }
 
         private void UpdateButtons()
@@ -108,7 +123,7 @@ namespace Presentation.UserControls
         {
             var dlg = Program.ServiceLocator.Resolve<UserDialog>();
             dlg.UserId = id;
-            if (dlg.ShowDialog() == DialogResult.OK) _ = LoadAsync();
+            if (dlg.ShowDialog(FindForm()) == DialogResult.OK) _ = LoadAsync();
         }
 
         private async Task DeleteAsync()

@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "D:\\cyber security\\fundamentals\\Projects\\Center App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\services\\studentgroupaggregationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\services\\studentgroupaggregationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\groupdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\groupdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\servicesinterfaces\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\servicesinterfaces\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\services\\enrollmentdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\services\\enrollmentdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\controls\\styleddatagridview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controls\\styleddatagridview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\controls\\searchablecombobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controls\\searchablecombobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\enrollstudentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\enrollstudentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\controls\\styledtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controls\\styledtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\controls\\styledcombobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controls\\styledcombobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\controls\\cardpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controls\\cardpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\usercontrols\\studentspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,36 +47,312 @@
       "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\studentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\configurations\\personconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configurations\\personconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\servicesinterfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\servicesinterfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\servicesinterfaces\\isubjectgradehandlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\servicesinterfaces\\isubjectgradehandlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\dependencyinjection\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\usercontrols\\examspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\usercontrols\\examspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\usercontrols\\paymentspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\usercontrols\\paymentspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|D:\\cyber security\\fundamentals\\Projects\\Center App\\presentation\\usercontrols\\paymentspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\usercontrols\\paymentspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\examresultsdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\examresultsdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\paymentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\paymentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\examdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\examdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\theme\\apptheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\theme\\apptheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\services\\examservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\services\\examservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\servicesinterfaces\\iexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\servicesinterfaces\\iexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\models\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\email\\emailtemplates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\email\\emailtemplates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\models\\subjectgradehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\subjectgradehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\interfaces\\repos\\isubjectgradehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\repos\\isubjectgradehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\email\\emailnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\email\\emailnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\servicesinterfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\servicesinterfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\centerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\centerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\repository\\email\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\email\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\settings\\centersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\settings\\centersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\settings\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\settings\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\servicesinterfaces\\email\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\servicesinterfaces\\email\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\services\\enrollmentappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\services\\enrollmentappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\services\\enrollmentdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\services\\enrollmentdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\userdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\userdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\validation\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\validation\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\mainshell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\mainshell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\enrollstudentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\enrollstudentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\usercontrols\\userspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\usercontrols\\userspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\appsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\appsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\common\\roles\\userpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\common\\roles\\userpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\controls\\styleddatagridview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controls\\styleddatagridview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\usercontrols\\groupspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\usercontrols\\groupspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\servicesinterfaces\\security\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\servicesinterfaces\\security\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\controls\\ghostbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controls\\ghostbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\usercontrols\\lookupspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\usercontrols\\lookupspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|D:\\cyber security\\fundamentals\\Projects\\Center App\\presentation\\usercontrols\\lookupspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\usercontrols\\lookupspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\repository\\subjectgradehandlerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\subjectgradehandlerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\services\\subjectgradehandlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\services\\subjectgradehandlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\repository\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\interfaces\\repos\\igroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\repos\\igroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\usercontrols\\dashboardpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\usercontrols\\dashboardpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\repository\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repository\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\sessiondialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\sessiondialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\groupscheduledialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\groupscheduledialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|D:\\cyber security\\fundamentals\\Projects\\Center App\\presentation\\mainshell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\mainshell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|D:\\cyber security\\fundamentals\\Projects\\Center App\\presentation\\usercontrols\\studentspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\usercontrols\\studentspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|D:\\cyber security\\fundamentals\\Projects\\Center App\\presentation\\studentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\studentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|D:\\cyber security\\fundamentals\\Projects\\Center App\\presentation\\usercontrols\\userspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\usercontrols\\userspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|D:\\cyber security\\fundamentals\\Projects\\Center App\\presentation\\usercontrols\\groupspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\usercontrols\\groupspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|D:\\cyber security\\fundamentals\\Projects\\Center App\\presentation\\userdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\userdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\usercontrols\\sessionspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\usercontrols\\sessionspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\attendancedialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\attendancedialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|D:\\cyber security\\fundamentals\\Projects\\Center App\\presentation\\groupdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\groupdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\controls\\statusbadge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controls\\statusbadge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|D:\\cyber security\\fundamentals\\Projects\\Center App\\presentation\\usercontrols\\examspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\usercontrols\\examspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|D:\\cyber security\\fundamentals\\Projects\\Center App\\presentation\\usercontrols\\sessionspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\usercontrols\\sessionspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\controls\\statcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controls\\statcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\controls\\divider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controls\\divider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\controls\\sectionlabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controls\\sectionlabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\controls\\dangerbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controls\\dangerbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\controls\\roundedbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controls\\roundedbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\services\\studentgroupaggregationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\services\\studentgroupaggregationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\configurations\\personconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configurations\\personconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\centerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\centerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|D:\\cyber security\\fundamentals\\Projects\\Center App\\presentation\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\migrations\\20260307192754_updatestudentaddemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20260307192754_updatestudentaddemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,7 +362,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,96 +374,1040 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentGroupAggregationService.cs",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\StudentGroupAggregationService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\StudentGroupAggregationService.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\StudentGroupAggregationService.cs",
-              "RelativeToolTip": "Application\\Services\\StudentGroupAggregationService.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAqwAMAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "IGroupService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\IGroupService.cs",
+              "RelativeDocumentMoniker": "Application\\ServicesInterfaces\\IGroupService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\IGroupService.cs",
+              "RelativeToolTip": "Application\\ServicesInterfaces\\IGroupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T11:35:54.405Z",
+              "WhenOpened": "2026-03-07T23:16:31.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Group.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\Group.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Group.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\Group.cs",
+              "RelativeToolTip": "Domain\\Models\\Group.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T23:09:04.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StyledTextBox.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\StyledTextBox.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controls\\StyledTextBox.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\StyledTextBox.cs",
+              "RelativeToolTip": "Presentation\\Controls\\StyledTextBox.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAADwv3oAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T12:24:50.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ISubjectGradeHandlerService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\ISubjectGradeHandlerService.cs",
+              "RelativeDocumentMoniker": "Application\\ServicesInterfaces\\ISubjectGradeHandlerService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\ISubjectGradeHandlerService.cs",
+              "RelativeToolTip": "Application\\ServicesInterfaces\\ISubjectGradeHandlerService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIAwwA8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T03:18:12.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Program.cs",
               "RelativeDocumentMoniker": "Presentation\\Program.cs",
               "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Program.cs",
               "RelativeToolTip": "Presentation\\Program.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAmwEUAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwCwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-27T11:34:16.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EnrollmentDomainService.cs",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Services\\EnrollmentDomainService.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\EnrollmentDomainService.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Services\\EnrollmentDomainService.cs",
-              "RelativeToolTip": "Domain\\Services\\EnrollmentDomainService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBwAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "EnrollStudentDialog.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\EnrollStudentDialog.cs",
+              "RelativeDocumentMoniker": "Presentation\\EnrollStudentDialog.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\EnrollStudentDialog.cs",
+              "RelativeToolTip": "Presentation\\EnrollStudentDialog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T11:24:16.502Z",
+              "WhenOpened": "2026-02-27T11:20:46.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "StyledDataGridView.cs",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\StyledDataGridView.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controls\\StyledDataGridView.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\StyledDataGridView.cs",
-              "RelativeToolTip": "Presentation\\Controls\\StyledDataGridView.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAcwCAAAABJAAAAAAAAAA==",
+              "Title": "SearchableComboBox.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\SearchableComboBox.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controls\\SearchableComboBox.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\SearchableComboBox.cs",
+              "RelativeToolTip": "Presentation\\Controls\\SearchableComboBox.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAcwDMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T11:20:46.761Z",
+              "WhenOpened": "2026-03-07T22:36:41.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GroupDialog.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\GroupDialog.cs",
+              "RelativeDocumentMoniker": "Presentation\\GroupDialog.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\GroupDialog.cs",
+              "RelativeToolTip": "Presentation\\GroupDialog.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAQwLMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T16:29:51.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GroupService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\GroupService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\GroupService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\GroupService.cs",
+              "RelativeToolTip": "Application\\Services\\GroupService.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAQwGMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T04:10:59.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CardPanel.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\CardPanel.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controls\\CardPanel.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\CardPanel.cs",
+              "RelativeToolTip": "Presentation\\Controls\\CardPanel.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T12:25:15.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\User.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\User.cs",
-              "RelativeToolTip": "Domain\\Models\\User.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAuwCUAAAAAAAAAAAAAAA==",
+              "Title": "StyledComboBox.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\StyledComboBox.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controls\\StyledComboBox.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\StyledComboBox.cs",
+              "RelativeToolTip": "Presentation\\Controls\\StyledComboBox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T11:20:46.848Z"
+              "WhenOpened": "2026-03-06T12:25:03.124Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
+              "Title": "StudentsPage.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\StudentsPage.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserControls\\StudentsPage.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\StudentsPage.cs",
+              "RelativeToolTip": "Presentation\\UserControls\\StudentsPage.cs",
+              "ViewState": "AgIAACkBAAAAAAAAAAAQwEQBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T22:55:34.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\StudentService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\StudentService.cs",
+              "RelativeToolTip": "Application\\Services\\StudentService.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAA4wA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T22:16:59.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\IStudentService.cs",
+              "RelativeDocumentMoniker": "Application\\ServicesInterfaces\\IStudentService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\IStudentService.cs",
+              "RelativeToolTip": "Application\\ServicesInterfaces\\IStudentService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T22:03:28.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentDialog.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\StudentDialog.cs",
+              "RelativeDocumentMoniker": "Presentation\\StudentDialog.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\StudentDialog.cs",
+              "RelativeToolTip": "Presentation\\StudentDialog.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAQwMcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T11:20:46.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "20260307192754_updateStudentAddEmail.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Migrations\\20260307192754_updateStudentAddEmail.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20260307192754_updateStudentAddEmail.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Migrations\\20260307192754_updateStudentAddEmail.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20260307192754_updateStudentAddEmail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T19:27:54.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PaymentsPage.cs [Design]",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\PaymentsPage.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserControls\\PaymentsPage.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\PaymentsPage.cs [Design]",
+              "RelativeToolTip": "Presentation\\UserControls\\PaymentsPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T13:54:45.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PaymentDialog.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\PaymentDialog.cs",
+              "RelativeDocumentMoniker": "Presentation\\PaymentDialog.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\PaymentDialog.cs",
+              "RelativeToolTip": "Presentation\\PaymentDialog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T17:07:32.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\DependencyInjection\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection\\DependencyInjection.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\DependencyInjection\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection\\DependencyInjection.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T19:32:41.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Student.cs",
               "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\Student.cs",
               "RelativeToolTip": "Domain\\Models\\Student.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAQwEUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-27T11:20:46.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
+              "Title": "ExamResultsDialog.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\ExamResultsDialog.cs",
+              "RelativeDocumentMoniker": "Presentation\\ExamResultsDialog.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\ExamResultsDialog.cs",
+              "RelativeToolTip": "Presentation\\ExamResultsDialog.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAQwLEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T17:01:27.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AppTheme.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Theme\\AppTheme.cs",
+              "RelativeDocumentMoniker": "Presentation\\Theme\\AppTheme.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Theme\\AppTheme.cs",
+              "RelativeToolTip": "Presentation\\Theme\\AppTheme.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAQwEIAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T14:17:58.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ExamDialog.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\ExamDialog.cs",
+              "RelativeDocumentMoniker": "Presentation\\ExamDialog.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\ExamDialog.cs",
+              "RelativeToolTip": "Presentation\\ExamDialog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T17:00:51.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PaymentsPage.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\PaymentsPage.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserControls\\PaymentsPage.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\PaymentsPage.cs",
+              "RelativeToolTip": "Presentation\\UserControls\\PaymentsPage.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAgwLIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T13:54:48.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Exam.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\Exam.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Exam.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\Exam.cs",
+              "RelativeToolTip": "Domain\\Models\\Exam.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAywCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T16:19:00.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ExamsPage.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\ExamsPage.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserControls\\ExamsPage.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\ExamsPage.cs",
+              "RelativeToolTip": "Presentation\\UserControls\\ExamsPage.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAQwLsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T13:53:36.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EmailTemplates.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Email\\EmailTemplates.cs",
+              "RelativeDocumentMoniker": "Application\\Email\\EmailTemplates.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Email\\EmailTemplates.cs",
+              "RelativeToolTip": "Application\\Email\\EmailTemplates.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T16:23:14.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ExamService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\ExamService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ExamService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\ExamService.cs",
+              "RelativeToolTip": "Application\\Services\\ExamService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T19:00:54.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IExamService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\IExamService.cs",
+              "RelativeDocumentMoniker": "Application\\ServicesInterfaces\\IExamService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\IExamService.cs",
+              "RelativeToolTip": "Application\\ServicesInterfaces\\IExamService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T19:05:00.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SubjectGradeHandler.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\SubjectGradeHandler.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\SubjectGradeHandler.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\SubjectGradeHandler.cs",
+              "RelativeToolTip": "Domain\\Models\\SubjectGradeHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T03:29:22.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IPasswordHasher.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\Security\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "Application\\ServicesInterfaces\\Security\\IPasswordHasher.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\Security\\IPasswordHasher.cs",
+              "RelativeToolTip": "Application\\ServicesInterfaces\\Security\\IPasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:11:35.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CenterSettings.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Settings\\CenterSettings.cs",
+              "RelativeDocumentMoniker": "Application\\Settings\\CenterSettings.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Settings\\CenterSettings.cs",
+              "RelativeToolTip": "Application\\Settings\\CenterSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T15:17:14.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Settings\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "Application\\Settings\\EmailSettings.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Settings\\EmailSettings.cs",
+              "RelativeToolTip": "Application\\Settings\\EmailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T15:16:30.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\LoginForm.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\LoginForm.cs",
+              "RelativeToolTip": "Presentation\\LoginForm.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAQwIMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T11:20:46.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Security\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Security\\PasswordHasher.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Security\\PasswordHasher.cs",
+              "RelativeToolTip": "Infrastructure\\Security\\PasswordHasher.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:15:53.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RegisterForm.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "Presentation\\RegisterForm.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\RegisterForm.cs",
+              "RelativeToolTip": "Presentation\\RegisterForm.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAK4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:38:14.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "Application\\ServicesInterfaces\\IPaymentService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\IPaymentService.cs",
+              "RelativeToolTip": "Application\\ServicesInterfaces\\IPaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T16:19:48.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ISubjectGradeHandler.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Interfaces\\Repos\\ISubjectGradeHandler.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\Repos\\ISubjectGradeHandler.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Interfaces\\Repos\\ISubjectGradeHandler.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\Repos\\ISubjectGradeHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T03:19:42.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\PaymentService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\PaymentService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\PaymentService.cs",
+              "RelativeToolTip": "Application\\Services\\PaymentService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAA4wFwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T16:21:29.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EmailNotificationService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Email\\EmailNotificationService.cs",
+              "RelativeDocumentMoniker": "Application\\Email\\EmailNotificationService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Email\\EmailNotificationService.cs",
+              "RelativeToolTip": "Application\\Email\\EmailNotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T16:24:25.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "Person.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\Person.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Person.cs",
               "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\Person.cs",
               "RelativeToolTip": "Domain\\Models\\Person.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA9wBwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAIA9wBAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-27T11:20:46.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 34,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\User.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\User.cs",
+              "RelativeToolTip": "Domain\\Models\\User.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvy4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T11:20:46.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Validator.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Validation\\Validator.cs",
+              "RelativeDocumentMoniker": "Application\\Validation\\Validator.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Validation\\Validator.cs",
+              "RelativeToolTip": "Application\\Validation\\Validator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T14:42:07.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\Email\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Application\\ServicesInterfaces\\Email\\IEmailService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\Email\\IEmailService.cs",
+              "RelativeToolTip": "Application\\ServicesInterfaces\\Email\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T14:55:46.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "EnrollmentAppService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\EnrollmentAppService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\EnrollmentAppService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\EnrollmentAppService.cs",
+              "RelativeToolTip": "Application\\Services\\EnrollmentAppService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T14:57:15.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\Email\\EmailService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\Email\\EmailService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\Email\\EmailService.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\Email\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T14:59:08.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\appsettings.json",
+              "RelativeDocumentMoniker": "Presentation\\appsettings.json",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\appsettings.json",
+              "RelativeToolTip": "Presentation\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-07T15:06:55.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MainShell.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\MainShell.cs",
+              "RelativeDocumentMoniker": "Presentation\\MainShell.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\MainShell.cs",
+              "RelativeToolTip": "Presentation\\MainShell.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAQwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T11:20:46.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAqwIgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:36:27.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UserPermission.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Common\\Roles\\UserPermission.cs",
+              "RelativeDocumentMoniker": "Domain\\Common\\Roles\\UserPermission.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Common\\Roles\\UserPermission.cs",
+              "RelativeToolTip": "Domain\\Common\\Roles\\UserPermission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T14:26:54.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AppSession.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\AppSession.cs",
+              "RelativeDocumentMoniker": "Presentation\\AppSession.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\AppSession.cs",
+              "RelativeToolTip": "Presentation\\AppSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T14:27:48.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UsersPage.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\UsersPage.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserControls\\UsersPage.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\UsersPage.cs",
+              "RelativeToolTip": "Presentation\\UserControls\\UsersPage.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAxwH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T13:55:10.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UserDialog.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserDialog.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserDialog.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserDialog.cs",
+              "RelativeToolTip": "Presentation\\UserDialog.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T17:08:35.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EnrollmentDomainService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Services\\EnrollmentDomainService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\EnrollmentDomainService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Services\\EnrollmentDomainService.cs",
+              "RelativeToolTip": "Domain\\Services\\EnrollmentDomainService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T11:24:16.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "GhostButton.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\GhostButton.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controls\\GhostButton.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\GhostButton.cs",
+              "RelativeToolTip": "Presentation\\Controls\\GhostButton.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAIwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T12:24:34.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "StyledDataGridView.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\StyledDataGridView.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controls\\StyledDataGridView.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\StyledDataGridView.cs",
+              "RelativeToolTip": "Presentation\\Controls\\StyledDataGridView.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwCwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T11:20:46.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Groupspage.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\Groupspage.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserControls\\Groupspage.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\Groupspage.cs",
+              "RelativeToolTip": "Presentation\\UserControls\\Groupspage.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAwwOIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T12:19:33.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "SubjectGradeHandlerRepository.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\SubjectGradeHandlerRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\SubjectGradeHandlerRepository.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\SubjectGradeHandlerRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\SubjectGradeHandlerRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvx4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T03:15:35.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "LookupsPage.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\LookupsPage.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserControls\\LookupsPage.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\LookupsPage.cs",
+              "RelativeToolTip": "Presentation\\UserControls\\LookupsPage.cs",
+              "ViewState": "AgIAAGsBAAAAAAAAAAAcwHkBAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T17:09:17.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "SubjectGradeHandlerService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\SubjectGradeHandlerService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\SubjectGradeHandlerService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\SubjectGradeHandlerService.cs",
+              "RelativeToolTip": "Application\\Services\\SubjectGradeHandlerService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwDsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T03:12:35.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "LookupsPage.cs [Design]",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\LookupsPage.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserControls\\LookupsPage.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\LookupsPage.cs [Design]",
+              "RelativeToolTip": "Presentation\\UserControls\\LookupsPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T22:59:00.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IGroup.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Interfaces\\Repos\\IGroup.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\Repos\\IGroup.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Interfaces\\Repos\\IGroup.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\Repos\\IGroup.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T04:13:12.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "GroupRepository.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\GroupRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\GroupRepository.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\GroupRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\GroupRepository.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAcwEAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T04:09:06.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\UOW\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repository\\UOW\\UnitOfWork.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\UOW\\UnitOfWork.cs",
+              "RelativeToolTip": "Infrastructure\\Repository\\UOW\\UnitOfWork.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAA6wGcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T03:15:21.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "DashboardPage.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\DashboardPage.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserControls\\DashboardPage.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\DashboardPage.cs",
+              "RelativeToolTip": "Presentation\\UserControls\\DashboardPage.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T04:00:46.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "MainShell.cs [Design]",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\MainShell.cs",
+              "RelativeDocumentMoniker": "Presentation\\MainShell.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\MainShell.cs [Design]",
+              "RelativeToolTip": "Presentation\\MainShell.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T14:23:36.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "SessionDialog.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\SessionDialog.cs",
+              "RelativeDocumentMoniker": "Presentation\\SessionDialog.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\SessionDialog.cs",
+              "RelativeToolTip": "Presentation\\SessionDialog.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAYwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T17:02:31.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "GroupScheduleDialog.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\GroupScheduleDialog.cs",
+              "RelativeDocumentMoniker": "Presentation\\GroupScheduleDialog.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\GroupScheduleDialog.cs",
+              "RelativeToolTip": "Presentation\\GroupScheduleDialog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T16:41:54.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "StudentDialog.cs [Design]",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\StudentDialog.cs",
+              "RelativeDocumentMoniker": "Presentation\\StudentDialog.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\StudentDialog.cs [Design]",
+              "RelativeToolTip": "Presentation\\StudentDialog.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T15:52:33.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "SessionsPage.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\SessionsPage.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserControls\\SessionsPage.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\SessionsPage.cs",
+              "RelativeToolTip": "Presentation\\UserControls\\SessionsPage.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAQwH4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T13:52:08.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "StudentsPage.cs [Design]",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\StudentsPage.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserControls\\StudentsPage.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\StudentsPage.cs [Design]",
+              "RelativeToolTip": "Presentation\\UserControls\\StudentsPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T12:17:40.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "UserDialog.cs [Design]",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserDialog.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserDialog.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserDialog.cs [Design]",
+              "RelativeToolTip": "Presentation\\UserDialog.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T17:44:23.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "UsersPage.cs [Design]",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\UsersPage.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserControls\\UsersPage.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\UsersPage.cs [Design]",
+              "RelativeToolTip": "Presentation\\UserControls\\UsersPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T13:55:09.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Groupspage.cs [Design]",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\Groupspage.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserControls\\Groupspage.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\Groupspage.cs [Design]",
+              "RelativeToolTip": "Presentation\\UserControls\\Groupspage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T12:18:39.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "AttendanceDialog.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\AttendanceDialog.cs",
+              "RelativeDocumentMoniker": "Presentation\\AttendanceDialog.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\AttendanceDialog.cs",
+              "RelativeToolTip": "Presentation\\AttendanceDialog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T17:03:52.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "SessionsPage.cs [Design]",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\SessionsPage.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserControls\\SessionsPage.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\SessionsPage.cs [Design]",
+              "RelativeToolTip": "Presentation\\UserControls\\SessionsPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T13:52:06.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "GroupDialog.cs [Design]",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\GroupDialog.cs",
+              "RelativeDocumentMoniker": "Presentation\\GroupDialog.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\GroupDialog.cs [Design]",
+              "RelativeToolTip": "Presentation\\GroupDialog.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T16:29:46.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ExamsPage.cs [Design]",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\ExamsPage.cs",
+              "RelativeDocumentMoniker": "Presentation\\UserControls\\ExamsPage.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\ExamsPage.cs [Design]",
+              "RelativeToolTip": "Presentation\\UserControls\\ExamsPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T13:53:34.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "StatusBadge.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\StatusBadge.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controls\\StatusBadge.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\StatusBadge.cs",
+              "RelativeToolTip": "Presentation\\Controls\\StatusBadge.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwFMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T12:26:11.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "StatCard.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\StatCard.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controls\\StatCard.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\StatCard.cs",
+              "RelativeToolTip": "Presentation\\Controls\\StatCard.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAADwv0YAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T12:26:25.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Divider.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\Divider.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controls\\Divider.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\Divider.cs",
+              "RelativeToolTip": "Presentation\\Controls\\Divider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T12:25:56.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "SectionLabel.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\SectionLabel.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controls\\SectionLabel.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\SectionLabel.cs",
+              "RelativeToolTip": "Presentation\\Controls\\SectionLabel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T12:25:42.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "DangerButton.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\DangerButton.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controls\\DangerButton.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\DangerButton.cs",
+              "RelativeToolTip": "Presentation\\Controls\\DangerButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T12:24:23.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "RoundedButton.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\RoundedButton.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controls\\RoundedButton.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\RoundedButton.cs",
+              "RelativeToolTip": "Presentation\\Controls\\RoundedButton.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAADwv3cAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T12:24:08.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "StudentGroupAggregationService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\StudentGroupAggregationService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\StudentGroupAggregationService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\StudentGroupAggregationService.cs",
+              "RelativeToolTip": "Application\\Services\\StudentGroupAggregationService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowDkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T11:35:54.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
               "Title": "CenterDbContext.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\CenterDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\CenterDbContext.cs",
@@ -183,85 +1419,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 84,
               "Title": "PersonConfiguration.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Configurations\\PersonConfiguration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Configurations\\PersonConfiguration.cs",
               "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Configurations\\PersonConfiguration.cs",
               "RelativeToolTip": "Infrastructure\\Configurations\\PersonConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-27T11:20:46.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StudentsPage.cs",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\StudentsPage.cs",
-              "RelativeDocumentMoniker": "Presentation\\UserControls\\StudentsPage.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\StudentsPage.cs",
-              "RelativeToolTip": "Presentation\\UserControls\\StudentsPage.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAcwEMAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T11:20:46.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainShell.cs",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\MainShell.cs",
-              "RelativeDocumentMoniker": "Presentation\\MainShell.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\MainShell.cs",
-              "RelativeToolTip": "Presentation\\MainShell.cs",
-              "ViewState": "AgIAAPMAAAAAAAAAAADgvwcBAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T11:20:46.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EnrollStudentDialog.cs",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\EnrollStudentDialog.cs",
-              "RelativeDocumentMoniker": "Presentation\\EnrollStudentDialog.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\EnrollStudentDialog.cs",
-              "RelativeToolTip": "Presentation\\EnrollStudentDialog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T11:20:46.862Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StudentDialog.cs",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\StudentDialog.cs",
-              "RelativeDocumentMoniker": "Presentation\\StudentDialog.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\StudentDialog.cs",
-              "RelativeToolTip": "Presentation\\StudentDialog.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAwwE8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T11:20:46.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\LoginForm.cs",
-              "RelativeDocumentMoniker": "Presentation\\LoginForm.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\LoginForm.cs",
-              "RelativeToolTip": "Presentation\\LoginForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANsAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T11:20:46.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 86,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\LoginForm.cs",
               "RelativeDocumentMoniker": "Presentation\\LoginForm.cs",
-              "ToolTip": "E:\\Work\\Amr\\Study-Center-Managment-System\\Presentation\\LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Presentation\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-27T11:20:47.24Z"
             }
           ]

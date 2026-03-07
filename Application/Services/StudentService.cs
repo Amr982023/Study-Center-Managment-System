@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Application.ServicesInterfaces;
 using Domain.Common;
@@ -13,12 +11,12 @@ namespace Application.Services
     public class StudentService : IStudentService
     {
         private readonly IUnitOfWork _uow;
-
         public StudentService(IUnitOfWork uow) => _uow = uow;
 
         public async Task<Result<Student>> CreateAsync(
             string firstName, string lastName, string phone, string gender,
-            string code, string guardianPhone, int gradeId, string? midName = null)
+            string code, string guardianPhone, int gradeId,
+            string? midName = null, string? email = null)
         {
             if (await _uow.Students.ExistsByCodeAsync(code))
                 return Result<Student>.Failure($"Student code '{code}' already exists.");
@@ -34,13 +32,44 @@ namespace Application.Services
                 return Result<Student>.Failure("Grade not found.");
 
             var result = Student.Create(firstName, lastName, phone, gender,
-                                        code, guardianPhone, grade, midName);
+                                        code, guardianPhone, grade, midName, email);
             if (!result.IsSuccess)
                 return Result<Student>.Failure(result.ErrorMessage!);
 
             await _uow.Students.AddAsync(result.Value!);
             await _uow.SaveChangesAsync();
             return Result<Student>.Success(result.Value!);
+        }
+
+        public async Task<Result<Student>> UpdateAsync(
+            int id, string firstName, string lastName, string phone, string gender,
+            string code, string guardianPhone, int gradeId,
+            string? midName = null, string? email = null)
+        {
+            var student = await _uow.Students.GetByIdAsync(id);
+            if (student is null)
+                return Result<Student>.Failure("Student not found.");
+
+            // Check code uniqueness — skip current student
+            if (await _uow.Students.AnyAsync(s => s.Code == code && s.Id != id))
+                return Result<Student>.Failure($"Student code '{code}' already exists.");
+
+            // Check phone uniqueness — skip current student
+            if (await _uow.Students.AnyAsync(s => s.PersonalPhone == phone && s.Id != id))
+                return Result<Student>.Failure("Phone already in use by another student.");
+
+            if (await _uow.Users.AnyAsync(u => u.PersonalPhone == phone))
+                return Result<Student>.Failure("Phone already in use by a user.");
+
+            var grade = await _uow.Grades.GetByIdAsync(gradeId);
+            if (grade is null)
+                return Result<Student>.Failure("Grade not found.");
+
+            student.Update(firstName, lastName, phone, gender, code, guardianPhone, grade, midName, email);
+
+            await _uow.Students.UpdateAsync(student);
+            await _uow.SaveChangesAsync();
+            return Result<Student>.Success(student);
         }
 
         public async Task<Result<Student>> GetByIdAsync(int id)
@@ -111,4 +140,4 @@ namespace Application.Services
             return Result<bool>.Success(true);
         }
     }
-    }
+}

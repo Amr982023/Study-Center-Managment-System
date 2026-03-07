@@ -64,8 +64,8 @@ namespace Presentation.Forms
 
             // Logo strip
             var logoPanel = new Panel { Height = 78, Dock = DockStyle.Top, BackColor = AppTheme.BlueDialneDark };
-            var logoIcon = new Label { Text = "🎓", Font = new Font("Segoe UI Emoji", 20f), ForeColor = AppTheme.Tangerine, BackColor = Color.Transparent, AutoSize = true, Location = new Point(14, 20) };
-            var logoName = new Label { Text = "CenterPro", Font = new Font("Segoe UI", 11f, FontStyle.Bold), ForeColor = Color.White, BackColor = Color.Transparent, AutoSize = false, Size = new Size(178, 28), Location = new Point(48, 26) };
+            var logoIcon = new Label { Text = "🎓", Font = new Font("Segoe UI Emoji", 20f), ForeColor = AppTheme.Tangerine, BackColor = Color.Transparent, AutoSize = true, Location = new Point(3, 20) };
+            var logoName = new Label { Text = "Center Managment System", Font = new Font("Segoe UI", 11f, FontStyle.Bold), ForeColor = Color.White, BackColor = Color.Transparent, AutoSize = false, Size = new Size(250, 28), Location = new Point(51, 28) };
             logoPanel.Controls.AddRange(new Control[] { logoIcon, logoName });
 
             var topSep = new Panel { Height = 2, Dock = DockStyle.Top, BackColor = AppTheme.Tangerine };
@@ -95,10 +95,70 @@ namespace Presentation.Forms
             {
                 var item = CreateNavItem(icon, label, page);
                 item.Location = new Point(0, yOffset);
+
+                // Hide nav items the current user has no access to
+                // Dashboard is always visible
+                if (page != "Dashboard" && !AppSession.CanAccess(page))
+                {
+                    item.Visible = false;
+                    item.Tag = "hidden";
+                }
+
                 navContainer.Controls.Add(item);
                 _navItems.Add((item, page));
                 yOffset += AppTheme.NavItemHeight + 3;
             }
+
+            // ── Center name badge — between nav and logout ───────────────────
+            var centerSep = new Panel { Height = 1, Dock = DockStyle.Bottom, BackColor = AppTheme.Border };
+
+            var centerBadge = new Panel
+            {
+                Height = 66,
+                Dock = DockStyle.Bottom,
+                BackColor = Color.FromArgb(22, 240, 138, 4)
+            };
+
+            var badgeAccent = new Panel
+            {
+                Width = 4,
+                Height = 66,
+                Location = new Point(0, 0),
+                BackColor = AppTheme.Tangerine
+            };
+
+            var badgeIcon = new Label
+            {
+                Text = "⌘",
+                Font = new Font("Segoe UI Emoji", 25f),
+                ForeColor = AppTheme.Tangerine,
+                BackColor = Color.Transparent,
+                AutoSize = true,
+                Location = new Point(6, 12)
+            };
+
+            var badgeName = new Label
+            {
+                Text = "Novexus solutions",
+                Font = new Font("Segoe UI", 11f, FontStyle.Bold),
+                ForeColor = AppTheme.Tangerine,
+                BackColor = Color.Transparent,
+                AutoSize = false,
+                Size = new Size(168, 18),
+                Location = new Point(50, 5)
+            };
+
+            var badgeSub = new Label
+            {
+                Text = "Tel : +201068343401\nTel : +201150439596 ",
+                Font = AppTheme.FontSmall,
+                ForeColor = AppTheme.TextMuted,
+                BackColor = Color.Transparent,
+                AutoSize = true,
+                Location = new Point(50, 28)
+            };
+
+            centerBadge.Controls.AddRange(new Control[] { badgeAccent, badgeIcon, badgeName, badgeSub });
 
             // Bottom: user info + logout
             var bottomSep = new Panel { Height = 1, Dock = DockStyle.Bottom, BackColor = AppTheme.Border };
@@ -133,7 +193,23 @@ namespace Presentation.Forms
             var lblUserRole = new Label { Text = AppSession.CurrentUser?.Permission ?? "Staff", Font = AppTheme.FontSmall, ForeColor = AppTheme.TextSecondary, BackColor = Color.Transparent, AutoSize = true, Location = new Point(56, 36) };
             userPanel.Controls.AddRange(new Control[] { userAvatar, lblUserName, lblUserRole });
 
-            _sidebar.Controls.AddRange(new Control[] { navContainer, topSep, logoPanel, logoutBtn, bottomSep, userSep, userPanel });
+            // Dock=Bottom items are stacked bottom-up in the order they are added.
+            // To get: userPanel → userSep → logoutBtn → bottomSep → centerBadge → centerSep → (nav fills rest)
+            // we add them in reverse visual order:
+            // Dock=Bottom visual order bottom→top:
+            //   userPanel → userSep → centerBadge → centerSep → logoutBtn → bottomSep
+            _sidebar.Controls.AddRange(new Control[]
+            {
+                navContainer,   // Fill
+                topSep,
+                logoPanel,
+                userPanel,      // very bottom
+                userSep,
+                centerSep,
+                logoutBtn,      // above center badge
+                bottomSep,
+                centerBadge,
+            });
         }
 
         private Panel CreateNavItem(string icon, string label, string page)

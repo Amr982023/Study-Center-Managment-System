@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Application.ServicesInterfaces;
+using Application.ServicesInterfaces.Security;
 using Domain.Common;
 using Domain.Interfaces.UOW;
 using Domain.Models;
@@ -13,12 +13,17 @@ namespace Application.Services
     public class UserService : IUserService
     {
         private readonly IUnitOfWork _uow;
+        private readonly IPasswordHasher _hasher;
 
-        public UserService(IUnitOfWork uow) => _uow = uow;
+        public UserService(IUnitOfWork uow, IPasswordHasher hasher)
+        {
+            _uow = uow;
+            _hasher = hasher;
+        }
 
         public async Task<Result<User>> CreateAsync(
             string firstName, string lastName, string phone, string gender,
-            string userName, string email, string permission, string hashedPassword,
+            string userName, string email, string permission, string plainPassword,
             string? midName = null)
         {
             if (await _uow.Users.IsUserNameTakenAsync(userName))
@@ -32,6 +37,9 @@ namespace Application.Services
 
             if (await _uow.Students.AnyAsync(s => s.PersonalPhone == phone))
                 return Result<User>.Failure("Phone already in use by a student.");
+
+            // Hash the plain-text password before storing
+            var hashedPassword = _hasher.Hash(plainPassword);
 
             var result = User.Create(firstName, lastName, phone, gender,
                                      userName, email, permission, hashedPassword, midName);
@@ -89,13 +97,16 @@ namespace Application.Services
             return Result<IEnumerable<User>>.Success(users);
         }
 
-        public async Task<Result<User>> AuthenticateAsync(string userName, string hashedPassword)
+        /// <summary>
+        /// Validates credentials using PBKDF2 hash comparison.
+        /// </summary>
+        public async Task<Result<User>> AuthenticateAsync(string userName, string plainPassword)
         {
             var user = await _uow.Users.GetByUserNameAsync(userName);
             if (user is null)
                 return Result<User>.Failure("Invalid username or password.");
 
-            if (user.HashedPassword != hashedPassword)
+            if (!_hasher.Verify(plainPassword, user.HashedPassword))
                 return Result<User>.Failure("Invalid username or password.");
 
             return Result<User>.Success(user);

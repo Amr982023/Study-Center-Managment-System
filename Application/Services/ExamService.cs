@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Application.ServicesInterfaces;
 using Domain.Common;
@@ -13,16 +11,15 @@ namespace Application.Services
     public class ExamService : IExamService
     {
         private readonly IUnitOfWork _uow;
-
         public ExamService(IUnitOfWork uow) => _uow = uow;
 
-        public async Task<Result<Exam>> CreateAsync(int groupId, string name, int fullMark)
+        public async Task<Result<Exam>> CreateAsync(int groupId, string name, int fullMark, DateTime examDate)
         {
             var group = await _uow.Groups.GetByIdAsync(groupId);
             if (group is null)
                 return Result<Exam>.Failure("Group not found.");
 
-            var result = Exam.Create(group, name, fullMark);
+            var result = Exam.Create(group, name, fullMark, examDate);
             if (!result.IsSuccess)
                 return Result<Exam>.Failure(result.ErrorMessage!);
 
@@ -66,5 +63,4 @@ namespace Application.Services
             return Result<bool>.Success(true);
         }
     }
-
 }

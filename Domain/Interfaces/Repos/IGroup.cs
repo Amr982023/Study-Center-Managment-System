@@ -16,6 +16,7 @@ namespace Domain.Interfaces.Repos
         Task<IEnumerable<Group>> GetByGradeAsync(int gradeId);
 
         Task<IEnumerable<Group>> GetByStudentWithDetailsAsync(int studentId);
+        Task<IEnumerable<Group>> GetAllWithDetailsAsync();
     }
 
 }

@@ -28,6 +28,15 @@ namespace Infrastructure.Repository
                     EF.Property<int>(sgh, "SubjectId") == subjectId &&
                     EF.Property<int>(sgh, "GradeId") == gradeId);
         }
+
+        public async Task<IEnumerable<SubjectGradeHandler>> GetAllWithDetailsAsync()
+        {
+            return await _dbSet  
+                .Include(sgh => sgh.Subject)
+                .Include(sgh => sgh.Grade)
+                .ToListAsync();
+        }
+  
     }
 
 }

@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Application.ServicesInterfaces;
 using Domain.Common;
@@ -13,7 +11,6 @@ namespace Application.Services
     public class PaymentService : IPaymentService
     {
         private readonly IUnitOfWork _uow;
-
         public PaymentService(IUnitOfWork uow) => _uow = uow;
 
         public async Task<Result<Payment>> CreateAsync(
@@ -76,6 +73,21 @@ namespace Application.Services
             await _uow.Payments.DeleteAsync(payment);
             await _uow.SaveChangesAsync();
             return Result<bool>.Success(true);
+        }
+
+        public async Task<Result<IEnumerable<Student>>> GetUnpaidStudentsAsync(int month)
+        {
+            var allStudents = await _uow.Students.GetAllAsync();
+            var unpaid = new List<Student>();
+
+            foreach (var student in allStudents)
+            {
+                var payments = await _uow.Payments.GetByStudentAsync(student.Id);
+                bool hasPaid = payments.Any(p => p.Month == month);
+                if (!hasPaid) unpaid.Add(student);
+            }
+
+            return Result<IEnumerable<Student>>.Success(unpaid);
         }
     }
 }

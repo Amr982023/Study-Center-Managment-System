@@ -325,3 +325,12 @@ E:\Work\Amr\Study-Center-Managment-System\Presentation\obj\Debug\net9.0-windows\
 E:\Work\Amr\Study-Center-Managment-System\Presentation\obj\Debug\net9.0-windows\Presentation.pdb
 E:\Work\Amr\Study-Center-Managment-System\Presentation\obj\Debug\net9.0-windows\Presentation.genruntimeconfig.cache
 E:\Work\Amr\Study-Center-Managment-System\Presentation\obj\Debug\net9.0-windows\ref\Presentation.dll
+D:\cyber security\fundamentals\Projects\Center App\Presentation\obj\Debug\net9.0-windows\Presentation.Forms.RegisterForm.resources
+D:\cyber security\fundamentals\Projects\Center App\Presentation\bin\Debug\net9.0-windows\appsettings.json
+D:\cyber security\fundamentals\Projects\Center App\Presentation\bin\Debug\net9.0-windows\Microsoft.Extensions.Configuration.dll
+D:\cyber security\fundamentals\Projects\Center App\Presentation\bin\Debug\net9.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+D:\cyber security\fundamentals\Projects\Center App\Presentation\bin\Debug\net9.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\cyber security\fundamentals\Projects\Center App\Presentation\bin\Debug\net9.0-windows\Microsoft.Extensions.Configuration.Json.dll
+D:\cyber security\fundamentals\Projects\Center App\Presentation\bin\Debug\net9.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\cyber security\fundamentals\Projects\Center App\Presentation\bin\Debug\net9.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+D:\cyber security\fundamentals\Projects\Center App\Presentation\bin\Debug\net9.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll

@@ -1,4 +1,9 @@
 ﻿#nullable disable
+using System;
+using System.Drawing;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Application.Email;
 using Application.ServicesInterfaces;
 using Domain.Models;
 using Presentation.Controls;
@@ -10,6 +15,7 @@ namespace Presentation
     {
         private readonly IPaymentService _paymentService;
         private readonly IStudentService _studentService;
+        private readonly EmailNotificationService _emailService;
 
         private StyledComboBox _cmbStudent;
         private StyledComboBox _cmbMonth;
@@ -20,10 +26,12 @@ namespace Presentation
         private Label _lblHistory;
         private StyledDataGridView _gridHistory;
 
-        public PaymentDialog(IPaymentService paymentService, IStudentService studentService)
+        public PaymentDialog(IPaymentService paymentService, IStudentService studentService,
+                             EmailNotificationService emailService)
         {
             _paymentService = paymentService;
             _studentService = studentService;
+            _emailService = emailService;
             InitUI();
         }
 
@@ -105,13 +113,17 @@ namespace Presentation
             var r = await _paymentService.CreateAsync(s.Id, AppSession.CurrentUser.Id, amount, month);
             _btnSave.Enabled = true;
 
-            if (r.IsSuccess) { DialogResult = DialogResult.OK; Close(); }
-            else _lblError.Text = r.ErrorMessage;
+            if (!r.IsSuccess) { _lblError.Text = r.ErrorMessage; return; }
+
+            // Send receipt email — silent, don't block close if it fails
+            var (sent, error) = await _emailService.SendPaymentReceiptAsync(s, r.Value);
+            if (!sent && !string.IsNullOrWhiteSpace(error) && error != "Student has no email address.")
+                _lblError.Text = $"Payment saved. Email failed: {error}";
+
+            DialogResult = DialogResult.OK;
+            Close();
         }
 
         private static Label Lbl(string t, int x, int y) => new Label { Text = t, Font = AppTheme.FontLabelBold, ForeColor = AppTheme.TextSecondary, BackColor = Color.Transparent, AutoSize = true, Location = new Point(x, y) };
     }
 }
-
-
-

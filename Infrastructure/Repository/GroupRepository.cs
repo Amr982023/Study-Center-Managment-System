@@ -58,6 +58,17 @@ namespace Infrastructure.Repository
                     .ThenInclude(sg => sg.Grade)
                 .FirstOrDefaultAsync(g => g.Id == groupId);
         }
+
+        public async Task<IEnumerable<Group>> GetAllWithDetailsAsync()
+        {
+            return await _dbSet
+                .Include(g => g.SubjectGrade)
+                    .ThenInclude(sg => sg.Subject)
+                .Include(g => g.SubjectGrade)
+                    .ThenInclude(sg => sg.Grade)
+                .OrderBy(g => g.Name)
+                .ToListAsync();
+        }
     }
 
 }

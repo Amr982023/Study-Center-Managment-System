@@ -35,7 +35,7 @@ namespace Presentation
         private void InitUI()
         {
             Text = "Class Session";
-            Size = new Size(440, 400);
+            Size = new Size(440, 420);
             StartPosition = FormStartPosition.CenterParent;
             BackColor = AppTheme.CardBg;
             FormBorderStyle = FormBorderStyle.FixedDialog;

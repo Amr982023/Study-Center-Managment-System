@@ -57,7 +57,7 @@ namespace Application.Services
 
         public async Task<Result<IEnumerable<SubjectGradeHandler>>> GetAllAsync()
         {
-            var handlers = await _uow.SubjectGradeHandlers.GetAllAsync();
+            var handlers = await _uow.SubjectGradeHandlers.GetAllWithDetailsAsync();
             return Result<IEnumerable<SubjectGradeHandler>>.Success(handlers);
         }
 

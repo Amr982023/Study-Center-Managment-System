@@ -1,12 +1,13 @@
 ﻿#nullable disable
 using System.ComponentModel;
 using Application.ServicesInterfaces;
+using Application.Validation;
 using Presentation.Controls;
 using Presentation.Theme;
 
 namespace Presentation
 {
-    public partial class UserDialog : Form
+    public class UserDialog : Form
     {
         private readonly IUserService _userService;
 
@@ -35,7 +36,7 @@ namespace Presentation
         private void InitUI()
         {
             Text = UserId.HasValue ? "Edit User" : "Add User";
-            Size = new Size(520, 560);
+            Size = new Size(520, 570);
             StartPosition = FormStartPosition.CenterParent;
             BackColor = AppTheme.CardBg;
             FormBorderStyle = FormBorderStyle.FixedDialog;
@@ -63,7 +64,7 @@ namespace Presentation
 
             var l9 = L("Permission *", c1, r5);
             _cmbPermission = new StyledComboBox { Width = 200, Location = new Point(c1, r5 + 22) };
-            _cmbPermission.Items.AddRange(new object[] { "Admin", "Staff", "Viewer" });
+            _cmbPermission.Items.AddRange(new object[] { "Admin", "Manager", "Teacher", "Staff" });
             _cmbPermission.SelectedIndex = 1;
 
             _lblError = new Label { Font = AppTheme.FontSmall, ForeColor = AppTheme.Danger, BackColor = Color.Transparent, AutoSize = false, Width = 462, Height = 18, Location = new Point(24, 458) };
@@ -80,9 +81,24 @@ namespace Presentation
         private async Task SaveAsync()
         {
             _lblError.Text = "";
-            if (string.IsNullOrWhiteSpace(_txtFirst.Text) || string.IsNullOrWhiteSpace(_txtLast.Text) ||
-                string.IsNullOrWhiteSpace(_txtUsername.Text) || string.IsNullOrWhiteSpace(_txtPassword.Text))
-            { _lblError.Text = "Fill all required fields (*)."; return; }
+
+            var reqErr = Validator.ValidateAllRequired(
+                (_txtFirst.Text, "First name"),
+                (_txtLast.Text, "Last name"),
+                (_txtPhone.Text, "Phone"),
+                (_txtEmail.Text, "Email"),
+                (_txtUsername.Text, "Username"),
+                (_txtPassword.Text, "Password"));
+            if (reqErr != null) { _lblError.Text = reqErr; return; }
+
+            var phoneErr = Validator.ValidatePhone(_txtPhone.Text.Trim());
+            if (phoneErr != null) { _lblError.Text = phoneErr; return; }
+
+            var emailErr = Validator.ValidateEmail(_txtEmail.Text.Trim());
+            if (emailErr != null) { _lblError.Text = emailErr; return; }
+
+            var passErr = Validator.ValidatePassword(_txtPassword.Text);
+            if (passErr != null) { _lblError.Text = passErr; return; }
 
             _btnSave.Enabled = false;
             var r = await _userService.CreateAsync(
@@ -101,6 +117,5 @@ namespace Presentation
         private static StyledTextBox TB(int x, int y, int w) => new StyledTextBox { Width = w, Height = AppTheme.InputHeight, Location = new Point(x, y + 22) };
         private static Label L(string t, int x, int y) => new Label { Text = t, Font = AppTheme.FontLabelBold, ForeColor = AppTheme.TextSecondary, BackColor = Color.Transparent, AutoSize = true, Location = new Point(x, y) };
     }
-
 
 }

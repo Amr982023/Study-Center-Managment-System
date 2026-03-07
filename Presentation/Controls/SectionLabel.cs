@@ -17,4 +17,5 @@ namespace Presentation.Controls
             AutoSize = true;
         }
     }
+
 }

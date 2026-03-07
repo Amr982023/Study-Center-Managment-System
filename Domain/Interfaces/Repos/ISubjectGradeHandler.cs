@@ -12,6 +12,7 @@ namespace Domain.Interfaces.Repos
      : IGeneric<SubjectGradeHandler>
     {
         Task<SubjectGradeHandler?> GetAsync(int subjectId, int gradeId);
+        Task<IEnumerable<SubjectGradeHandler>> GetAllWithDetailsAsync();
     }
 
 }

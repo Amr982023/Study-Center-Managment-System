@@ -1,20 +1,25 @@
 using System;
 using System.Windows.Forms;
+using Application.Email;
+using Application.Settings;
+using Infrastructure.Services;
+using Microsoft.Extensions.Configuration;
 using Application.Services;
 using Application.ServicesInterfaces;
-using Domain.Interfaces;
-using Domain.Interfaces.UOW;
-using Domain.Services;
+using Application.ServicesInterfaces.Security;
 using Infrastructure;
-using Infrastructure.Repository.UOW;
+using Domain.Interfaces;
+using Domain.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Presentation.Forms;
-using Presentation.UserControls;
-
 
 // Alias to avoid conflict between "Application" project namespace
 // and System.Windows.Forms.Application
 using WinApp = System.Windows.Forms.Application;
+using Domain.Interfaces.UOW;
+using Infrastructure.DependencyInjection;
+using Infrastructure.Repository.UOW;
+using Presentation.UserControls;
 
 namespace Presentation
 {
@@ -37,17 +42,40 @@ namespace Presentation
             var services = new ServiceCollection();
             ConfigureServices(services);
 
+            // Load appsettings.json
+            var config = new ConfigurationBuilder()
+                .SetBasePath(System.IO.Path.GetDirectoryName(
+                    System.Reflection.Assembly.GetExecutingAssembly().Location))
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: false)
+                .Build();
+
+            var emailSettings = new EmailSettings();
+            var centerSettings = new CenterSettings();
+            config.GetSection("EmailSettings").Bind(emailSettings);
+            config.GetSection("CenterSettings").Bind(centerSettings);
+
+            services.AddSingleton(centerSettings);
+
+            // Infrastructure (email, security)
+            services.AddInfrastructure(emailSettings);
+
             var provider = services.BuildServiceProvider();
             ServiceLocator = new ServiceLocator(provider);
 
-            WinApp.Run(provider.GetRequiredService<LoginForm>());
+            // First-run check: if no users exist, show setup/register form
+            var userService = provider.GetRequiredService<IUserService>();
+            var allUsers = userService.GetAllAsync().GetAwaiter().GetResult();
+            bool firstRun = !allUsers.IsSuccess || !allUsers.Value.Any();
+
+            if (firstRun)
+                WinApp.Run(provider.GetRequiredService<RegisterForm>());
+            else
+                WinApp.Run(provider.GetRequiredService<LoginForm>());
         }
 
         private static void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<CenterDbContext>();
-            
-
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddScoped<IGradeService, GradeService>();
@@ -58,6 +86,7 @@ namespace Presentation
             services.AddScoped<IGroupService, GroupService>();
             services.AddScoped<IGroupScheduleService, GroupScheduleService>();
             services.AddScoped<IClassSessionService, ClassSessionService>();
+            services.AddScoped<EnrollmentDomainService>();
             services.AddScoped<IStudentGroupAggregationService, StudentGroupAggregationService>();
             services.AddScoped<IStudentRegistrationService, StudentRegistrationService>();
             services.AddScoped<IPaymentService, PaymentService>();
@@ -67,10 +96,10 @@ namespace Presentation
             services.AddScoped<ISessionStatusService, SessionStatusService>();
             services.AddScoped<IMessageTypeService, MessageTypeService>();
             services.AddScoped<IMessageService, MessageService>();
-            services.AddScoped<EnrollmentDomainService>();
-            services.AddScoped<IStudentGroupAggregationService, StudentGroupAggregationService>();
+
 
             services.AddTransient<LoginForm>();
+            services.AddTransient<RegisterForm>();
             services.AddTransient<MainShell>();
             services.AddTransient<DashboardPage>();
             services.AddTransient<StudentsPage>();

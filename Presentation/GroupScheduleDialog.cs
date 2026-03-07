@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿#nullable disable
+using System;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Application.ServicesInterfaces;
@@ -13,7 +11,7 @@ using Presentation.Theme;
 
 namespace Presentation
 {
-    public partial class GroupScheduleDialog : Form
+    public class GroupScheduleDialog : Form
     {
         private readonly IGroupScheduleService _scheduleService;
 
@@ -79,10 +77,11 @@ namespace Presentation
 
             var card = new CardPanel { Location = new Point(24, 134), Width = 420, Height = 200 };
             _grid = new StyledDataGridView { Dock = DockStyle.Fill };
+            _grid.AutoGenerateColumns = false;
             _grid.Columns.AddRange(
-                new DataGridViewTextBoxColumn { HeaderText = "ID", Name = "Id", FillWeight = 15 },
-                new DataGridViewTextBoxColumn { HeaderText = "Day", Name = "Day", FillWeight = 40 },
-                new DataGridViewTextBoxColumn { HeaderText = "Time", Name = "Time", FillWeight = 40 }
+                new DataGridViewTextBoxColumn { HeaderText = "ID", Name = "Id", DataPropertyName = "Id", FillWeight = 15 },
+                new DataGridViewTextBoxColumn { HeaderText = "Day", Name = "Day", DataPropertyName = "Day", FillWeight = 40 },
+                new DataGridViewTextBoxColumn { HeaderText = "Time", Name = "Time", DataPropertyName = "Time", FillWeight = 40 }
             );
             card.Controls.Add(_grid);
 
@@ -120,10 +119,18 @@ namespace Presentation
         private async Task RefreshAsync()
         {
             var r = await _scheduleService.GetByGroupAsync(GroupId);
-            _grid.Rows.Clear();
-            if (r.IsSuccess)
-                foreach (var s in r.Value)
-                    _grid.Rows.Add(s.Id, s.Day.ToString(), s.Time.ToString(@"hh\:mm"));
+            if (!r.IsSuccess) return;
+
+            var dt = new DataTable();
+            dt.Columns.Add("Id", typeof(int));
+            dt.Columns.Add("Day", typeof(string));
+            dt.Columns.Add("Time", typeof(string));
+
+            foreach (var s in r.Value)
+                dt.Rows.Add(s.Id, s.Day.ToString(), s.Time.ToString(@"hh\:mm"));
+
+            _grid.DataSource = null;
+            _grid.DataSource = dt;
         }
 
         private async Task AddScheduleAsync()
@@ -138,7 +145,8 @@ namespace Presentation
         private async Task DeleteAsync()
         {
             if (_grid.SelectedRows.Count == 0) return;
-            var id = (int)_grid.SelectedRows[0].Cells["Id"].Value;
+            var drv = _grid.SelectedRows[0].DataBoundItem as DataRowView;
+            var id = (int)drv["Id"];
             await _scheduleService.DeleteAsync(id);
             await RefreshAsync();
         }
@@ -154,4 +162,3 @@ namespace Presentation
         };
     }
 }
-

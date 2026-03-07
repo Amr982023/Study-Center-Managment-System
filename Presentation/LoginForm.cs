@@ -47,117 +47,25 @@ namespace Presentation.Forms
                 Location = new Point((480 - 380) / 2, 70)
             };
 
-            var iconLabel = new Label
-            {
-                Text = "🎓",
-                Font = new Font("Segoe UI Emoji", 36f),
-                ForeColor = AppTheme.AccentLight,
-                BackColor = Color.Transparent,
-                AutoSize = true,
-                Location = new Point(165, 32)
-            };
+            var iconLabel = new Label { Text = "🎓", Font = new Font("Segoe UI Emoji", 36f), ForeColor = AppTheme.AccentLight, BackColor = Color.Transparent, AutoSize = true, Location = new Point(165, 32) };
+            var lblAppName = new Label { Text = "Center Management", Font = new Font("Segoe UI", 18f, FontStyle.Bold), ForeColor = AppTheme.TextPrimary, BackColor = Color.Transparent, AutoSize = true, Location = new Point(72, 90) };
+            var lblSubtitle = new Label { Text = "Sign in to continue", Font = AppTheme.FontLabel, ForeColor = AppTheme.TextSecondary, BackColor = Color.Transparent, AutoSize = true, Location = new Point(138, 122) };
 
-            var lblAppName = new Label
-            {
-                Text = "Center Management",
-                Font = new Font("Segoe UI", 18f, FontStyle.Bold),
-                ForeColor = AppTheme.TextPrimary,
-                BackColor = Color.Transparent,
-                AutoSize = true,
-                Location = new Point(72, 90)
-            };
+            var lblUsername = new Label { Text = "Username", Font = AppTheme.FontLabelBold, ForeColor = AppTheme.TextSecondary, BackColor = Color.Transparent, AutoSize = true, Location = new Point(30, 162) };
+            _txtUsername = new StyledTextBox { Width = 320, Height = AppTheme.InputHeight, Placeholder = "Enter your username", Location = new Point(30, 182) };
 
-            var lblSubtitle = new Label
-            {
-                Text = "Sign in to continue",
-                Font = AppTheme.FontLabel,
-                ForeColor = AppTheme.TextSecondary,
-                BackColor = Color.Transparent,
-                AutoSize = true,
-                Location = new Point(138, 122)
-            };
+            var lblPassword = new Label { Text = "Password", Font = AppTheme.FontLabelBold, ForeColor = AppTheme.TextSecondary, BackColor = Color.Transparent, AutoSize = true, Location = new Point(30, 238) };
+            _txtPassword = new StyledTextBox { Width = 320, Height = AppTheme.InputHeight, Placeholder = "Enter your password", UseSystemPasswordChar = true, Location = new Point(30, 258) };
 
-            var lblUsername = new Label
-            {
-                Text = "Username",
-                Font = AppTheme.FontLabelBold,
-                ForeColor = AppTheme.TextSecondary,
-                BackColor = Color.Transparent,
-                AutoSize = true,
-                Location = new Point(30, 162)
-            };
+            _chkShowPassword = new CheckBox { Text = "Show password", Font = AppTheme.FontSmall, ForeColor = AppTheme.TextSecondary, BackColor = Color.Transparent, AutoSize = true, Location = new Point(30, 308), Cursor = Cursors.Hand };
+            _chkShowPassword.CheckedChanged += (s, e) => _txtPassword.UseSystemPasswordChar = !_chkShowPassword.Checked;
 
-            _txtUsername = new StyledTextBox
-            {
-                Width = 320,
-                Height = AppTheme.InputHeight,
-                Placeholder = "Enter your username",
-                Location = new Point(30, 182)
-            };
+            _lblError = new Label { Text = "", Font = AppTheme.FontSmall, ForeColor = AppTheme.Danger, BackColor = Color.Transparent, AutoSize = false, Width = 320, Height = 20, Location = new Point(30, 335), TextAlign = ContentAlignment.MiddleCenter };
 
-            var lblPassword = new Label
-            {
-                Text = "Password",
-                Font = AppTheme.FontLabelBold,
-                ForeColor = AppTheme.TextSecondary,
-                BackColor = Color.Transparent,
-                AutoSize = true,
-                Location = new Point(30, 238)
-            };
-
-            _txtPassword = new StyledTextBox
-            {
-                Width = 320,
-                Height = AppTheme.InputHeight,
-                Placeholder = "Enter your password",
-                UseSystemPasswordChar = true,
-                Location = new Point(30, 258)
-            };
-
-            _chkShowPassword = new CheckBox
-            {
-                Text = "Show password",
-                Font = AppTheme.FontSmall,
-                ForeColor = AppTheme.TextSecondary,
-                BackColor = Color.Transparent,
-                AutoSize = true,
-                Location = new Point(30, 308),
-                Cursor = Cursors.Hand
-            };
-            _chkShowPassword.CheckedChanged += (s, e) =>
-                _txtPassword.UseSystemPasswordChar = !_chkShowPassword.Checked;
-
-            _lblError = new Label
-            {
-                Text = "",
-                Font = AppTheme.FontSmall,
-                ForeColor = AppTheme.Danger,
-                BackColor = Color.Transparent,
-                AutoSize = false,
-                Width = 320,
-                Height = 20,
-                Location = new Point(30, 335),
-                TextAlign = ContentAlignment.MiddleCenter
-            };
-
-            _btnLogin = new RoundedButton
-            {
-                Text = "Sign In",
-                Width = 320,
-                Height = 44,
-                Location = new Point(30, 362)
-            };
+            _btnLogin = new RoundedButton { Text = "Sign In", Width = 320, Height = 44, Location = new Point(30, 362) };
             _btnLogin.Click += async (s, e) => await HandleLoginAsync();
 
-            var lblVersion = new Label
-            {
-                Text = "v1.0.0",
-                Font = AppTheme.FontSmall,
-                ForeColor = AppTheme.TextMuted,
-                BackColor = Color.Transparent,
-                AutoSize = true,
-                Location = new Point(30, 418)
-            };
+            var lblVersion = new Label { Text = "v1.0.0", Font = AppTheme.FontSmall, ForeColor = AppTheme.TextMuted, BackColor = Color.Transparent, AutoSize = true, Location = new Point(30, 418) };
 
             _card.Controls.AddRange(new Control[]
             {
@@ -170,14 +78,8 @@ namespace Presentation.Forms
 
             Controls.Add(_card);
 
-            _txtPassword.Inner.KeyDown += (s, e) =>
-            {
-                if (e.KeyCode == Keys.Enter) _btnLogin.PerformClick();
-            };
-            _txtUsername.Inner.KeyDown += (s, e) =>
-            {
-                if (e.KeyCode == Keys.Enter) _txtPassword.Inner.Focus();
-            };
+            _txtUsername.Inner.KeyDown += (s, e) => { if (e.KeyCode == Keys.Enter) _txtPassword.Inner.Focus(); };
+            _txtPassword.Inner.KeyDown += (s, e) => { if (e.KeyCode == Keys.Enter) _btnLogin.PerformClick(); };
         }
 
         private async Task HandleLoginAsync()
@@ -185,23 +87,15 @@ namespace Presentation.Forms
             var username = _txtUsername.Text.Trim();
             var password = _txtPassword.Text;
 
-            /*
-
             if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
-            {
-                _lblError.Text = "Please enter both username and password.";
-                return;
-            }
+            { _lblError.Text = "Please enter both username and password."; return; }
 
             _btnLogin.Enabled = false;
             _btnLogin.Text = "Signing in...";
             _lblError.Text = "";
 
-            */
-
             try
             {
-                /*
                 var result = await _userService.AuthenticateAsync(username, password);
 
                 if (result.IsSuccess)
@@ -215,11 +109,6 @@ namespace Presentation.Forms
                 {
                     _lblError.Text = result.ErrorMessage ?? "Invalid credentials.";
                 }
-                */
-
-                var main = Program.ServiceLocator.Resolve<MainShell>();
-                main.Show();
-                Hide();
             }
             catch
             {
@@ -235,11 +124,8 @@ namespace Presentation.Forms
         protected override void OnPaint(PaintEventArgs e)
         {
             base.OnPaint(e);
-            using var brush = new LinearGradientBrush(
-                ClientRectangle,
-                AppTheme.MainBg,
-                Color.FromArgb(20, 30, 50),
-                LinearGradientMode.Vertical);
+            using var brush = new LinearGradientBrush(ClientRectangle,
+                AppTheme.MainBg, Color.FromArgb(20, 30, 50), LinearGradientMode.Vertical);
             e.Graphics.FillRectangle(brush, ClientRectangle);
         }
     }

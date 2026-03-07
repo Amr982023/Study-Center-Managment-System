@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Domain.Common;
 
 namespace Domain.Models
@@ -22,7 +18,11 @@ namespace Domain.Models
         private SubjectGradeHandler(Subject subject, Grade grade, decimal fees)
         {
             Subject = subject;
+            SubjectId = subject.Id;
+
             Grade = grade;
+            GradeId = grade.Id;
+
             SessionFees = fees;
         }
 
@@ -31,6 +31,12 @@ namespace Domain.Models
             Grade grade,
             decimal fees)
         {
+            if (subject == null)
+                return Result<SubjectGradeHandler>.Failure("Subject required");
+
+            if (grade == null)
+                return Result<SubjectGradeHandler>.Failure("Grade required");
+
             if (fees <= 0)
                 return Result<SubjectGradeHandler>.Failure("Invalid fees");
 
@@ -38,5 +44,4 @@ namespace Domain.Models
                 new SubjectGradeHandler(subject, grade, fees));
         }
     }
-
 }

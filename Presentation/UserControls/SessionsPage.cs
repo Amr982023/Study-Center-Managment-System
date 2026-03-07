@@ -35,8 +35,8 @@ namespace Presentation.UserControls
             var headerPanel = new Panel { Dock = DockStyle.Top, Height = 120, BackColor = Color.Transparent, Padding = new Padding(0, 0, 0, 8) };
             var lblTitle = new SectionLabel { Text = "Class Sessions", Location = new Point(0, 0) };
             _lblCount = new Label { Font = AppTheme.FontSmall, ForeColor = AppTheme.TextMuted, BackColor = Color.Transparent, AutoSize = true, Location = new Point(0, 36) };
-            var toolbar = new Panel { Height = 48, BackColor = Color.Transparent, Location = new Point(0, 60) };
-            _cmbGroupFilter = new StyledComboBox { Width = 200, Location = new Point(0, 5) };
+            var toolbar = new Panel { Height = 48, BackColor = Color.Transparent, Location = new Point(0, 60) , Width = 1000 };
+            _cmbGroupFilter = new StyledComboBox { Width = 200, Location = new Point(0, 11) };
             _cmbGroupFilter.SelectedIndexChanged += async (s, e) => await LoadAsync();
 
             _btnAdd = new RoundedButton { Text = "+ Add Session", Width = 140, Height = AppTheme.ButtonHeight, Location = new Point(216, 5) };

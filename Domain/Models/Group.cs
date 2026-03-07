@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Domain.Common;
 
 namespace Domain.Models
@@ -23,20 +20,23 @@ namespace Domain.Models
         {
             Name = name;
             SubjectGrade = handler;
+            SubjectGradeHandlerId = handler.Id;
             FirstSessionDate = date;
         }
 
-        public static Result<Group> Create(
-            string name,
-            SubjectGradeHandler handler,
-            DateTime firstSession)
+        public static Result<Group> Create(string name, SubjectGradeHandler handler, DateTime firstSession)
         {
             if (string.IsNullOrWhiteSpace(name))
                 return Result<Group>.Failure("Group name required");
+            return Result<Group>.Success(new Group(name, handler, firstSession));
+        }
 
-            return Result<Group>.Success(
-                new Group(name, handler, firstSession));
+        public void Update(string name, SubjectGradeHandler handler, DateTime firstSessionDate)
+        {
+            Name = name;
+            SubjectGrade = handler;
+            SubjectGradeHandlerId = handler.Id;
+            FirstSessionDate = firstSessionDate;
         }
     }
-
 }
