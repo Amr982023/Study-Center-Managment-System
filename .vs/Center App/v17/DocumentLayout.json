@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "D:\\cyber security\\fundamentals\\Projects\\Center App\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\services\\enrollmentdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\services\\enrollmentdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\dependencyinjection\\applicationservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\dependencyinjection\\applicationservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\services\\enrollmentappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\services\\enrollmentappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\services\\studentgroupaggregationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\services\\studentgroupaggregationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\enrollstudentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\enrollstudentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\groupdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\groupdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\controls\\searchablecombobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controls\\searchablecombobox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\enrollstudentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\enrollstudentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\controls\\styledtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\studentdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -61,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\servicesinterfaces\\isubjectgradehandlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\servicesinterfaces\\isubjectgradehandlerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\dependencyinjection\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -161,14 +177,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\servicesinterfaces\\email\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\servicesinterfaces\\email\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\services\\enrollmentappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\services\\enrollmentappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\domain\\services\\enrollmentdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B2A81BE-FC83-46C9-B2DF-9E9688C1987B}|Domain\\Domain.csproj|solutionrelative:domain\\services\\enrollmentdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\presentation\\userdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -335,10 +343,6 @@
       "RelativeMoniker": "D:0:0:{15D4DE61-94D0-441F-941F-869472CA504A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controls\\roundedbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\application\\services\\studentgroupaggregationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3D9C31B-7605-457A-AE31-B728057007B9}|Application\\Application.csproj|solutionrelative:application\\services\\studentgroupaggregationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|d:\\cyber security\\fundamentals\\projects\\center app\\infrastructure\\configurations\\personconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64BC8353-2E88-44FF-A1FD-89194C87CC71}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configurations\\personconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -362,7 +366,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -374,67 +378,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IGroupService.cs",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\IGroupService.cs",
-              "RelativeDocumentMoniker": "Application\\ServicesInterfaces\\IGroupService.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\IGroupService.cs",
-              "RelativeToolTip": "Application\\ServicesInterfaces\\IGroupService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ApplicationServiceCollectionExtensions.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\DependencyInjection\\ApplicationServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Application\\DependencyInjection\\ApplicationServiceCollectionExtensions.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\DependencyInjection\\ApplicationServiceCollectionExtensions.cs",
+              "RelativeToolTip": "Application\\DependencyInjection\\ApplicationServiceCollectionExtensions.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCQAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T23:16:31.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Group.cs",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\Group.cs",
-              "RelativeDocumentMoniker": "Domain\\Models\\Group.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\Group.cs",
-              "RelativeToolTip": "Domain\\Models\\Group.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T23:09:04.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StyledTextBox.cs",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\StyledTextBox.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controls\\StyledTextBox.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\StyledTextBox.cs",
-              "RelativeToolTip": "Presentation\\Controls\\StyledTextBox.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAADwv3oAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T12:24:50.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ISubjectGradeHandlerService.cs",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\ISubjectGradeHandlerService.cs",
-              "RelativeDocumentMoniker": "Application\\ServicesInterfaces\\ISubjectGradeHandlerService.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\ISubjectGradeHandlerService.cs",
-              "RelativeToolTip": "Application\\ServicesInterfaces\\ISubjectGradeHandlerService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAIAwwA8AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T03:18:12.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Program.cs",
-              "RelativeDocumentMoniker": "Presentation\\Program.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Program.cs",
-              "RelativeToolTip": "Presentation\\Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAwwCwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T11:34:16.266Z",
+              "WhenOpened": "2026-03-09T18:09:28.466Z",
               "EditorCaption": ""
             },
             {
@@ -452,33 +404,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SearchableComboBox.cs",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\SearchableComboBox.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controls\\SearchableComboBox.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\SearchableComboBox.cs",
-              "RelativeToolTip": "Presentation\\Controls\\SearchableComboBox.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAcwDMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T22:36:41.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "GroupDialog.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\GroupDialog.cs",
               "RelativeDocumentMoniker": "Presentation\\GroupDialog.cs",
               "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\GroupDialog.cs",
               "RelativeToolTip": "Presentation\\GroupDialog.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAQwLMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAQwJYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-06T16:29:51.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "GroupService.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\GroupService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\GroupService.cs",
@@ -486,12 +425,11 @@
               "RelativeToolTip": "Application\\Services\\GroupService.cs",
               "ViewState": "AgIAAEgAAAAAAAAAAAAQwGMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T04:10:59.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-07T04:10:59.933Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "CardPanel.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\CardPanel.cs",
               "RelativeDocumentMoniker": "Presentation\\Controls\\CardPanel.cs",
@@ -499,12 +437,11 @@
               "RelativeToolTip": "Presentation\\Controls\\CardPanel.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAIwFoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T12:25:15.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-06T12:25:15.349Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "StyledComboBox.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\StyledComboBox.cs",
               "RelativeDocumentMoniker": "Presentation\\Controls\\StyledComboBox.cs",
@@ -512,12 +449,11 @@
               "RelativeToolTip": "Presentation\\Controls\\StyledComboBox.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T12:25:03.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-06T12:25:03.124Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "StudentsPage.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\StudentsPage.cs",
               "RelativeDocumentMoniker": "Presentation\\UserControls\\StudentsPage.cs",
@@ -530,20 +466,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
+              "Title": "EnrollmentDomainService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Services\\EnrollmentDomainService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\EnrollmentDomainService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Services\\EnrollmentDomainService.cs",
+              "RelativeToolTip": "Domain\\Services\\EnrollmentDomainService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T11:24:16.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "StudentService.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\StudentService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\StudentService.cs",
               "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\StudentService.cs",
               "RelativeToolTip": "Application\\Services\\StudentService.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAA4wA0AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-07T22:16:59.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
+              "Title": "EnrollmentAppService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\EnrollmentAppService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\EnrollmentAppService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\EnrollmentAppService.cs",
+              "RelativeToolTip": "Application\\Services\\EnrollmentAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T14:57:15.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Program.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T11:34:16.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SearchableComboBox.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\SearchableComboBox.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controls\\SearchableComboBox.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\SearchableComboBox.cs",
+              "RelativeToolTip": "Presentation\\Controls\\SearchableComboBox.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAcwDMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T22:36:41.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentGroupAggregationService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\StudentGroupAggregationService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\StudentGroupAggregationService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\StudentGroupAggregationService.cs",
+              "RelativeToolTip": "Application\\Services\\StudentGroupAggregationService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T11:35:54.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ISubjectGradeHandlerService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\ISubjectGradeHandlerService.cs",
+              "RelativeDocumentMoniker": "Application\\ServicesInterfaces\\ISubjectGradeHandlerService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\ISubjectGradeHandlerService.cs",
+              "RelativeToolTip": "Application\\ServicesInterfaces\\ISubjectGradeHandlerService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIAwwA8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T03:18:12.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StyledTextBox.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\StyledTextBox.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controls\\StyledTextBox.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\StyledTextBox.cs",
+              "RelativeToolTip": "Presentation\\Controls\\StyledTextBox.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAADwv3oAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T12:24:50.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Group.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\Group.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Group.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\Group.cs",
+              "RelativeToolTip": "Domain\\Models\\Group.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T23:09:04.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IGroupService.cs",
+              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\IGroupService.cs",
+              "RelativeDocumentMoniker": "Application\\ServicesInterfaces\\IGroupService.cs",
+              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\IGroupService.cs",
+              "RelativeToolTip": "Application\\ServicesInterfaces\\IGroupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T23:16:31.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "IStudentService.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\IStudentService.cs",
               "RelativeDocumentMoniker": "Application\\ServicesInterfaces\\IStudentService.cs",
@@ -551,12 +599,11 @@
               "RelativeToolTip": "Application\\ServicesInterfaces\\IStudentService.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAowBwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T22:03:28.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-07T22:03:28.457Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "StudentDialog.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\StudentDialog.cs",
               "RelativeDocumentMoniker": "Presentation\\StudentDialog.cs",
@@ -569,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 88,
               "Title": "20260307192754_updateStudentAddEmail.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Migrations\\20260307192754_updateStudentAddEmail.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20260307192754_updateStudentAddEmail.cs",
@@ -581,7 +628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "PaymentsPage.cs [Design]",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\PaymentsPage.cs",
               "RelativeDocumentMoniker": "Presentation\\UserControls\\PaymentsPage.cs",
@@ -592,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "PaymentDialog.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\PaymentDialog.cs",
               "RelativeDocumentMoniker": "Presentation\\PaymentDialog.cs",
@@ -604,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\DependencyInjection\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection\\DependencyInjection.cs",
@@ -616,7 +663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Student.cs",
@@ -624,12 +671,11 @@
               "RelativeToolTip": "Domain\\Models\\Student.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAQwEUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T11:20:46.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-27T11:20:46.851Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "ExamResultsDialog.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\ExamResultsDialog.cs",
               "RelativeDocumentMoniker": "Presentation\\ExamResultsDialog.cs",
@@ -641,7 +687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "AppTheme.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Theme\\AppTheme.cs",
               "RelativeDocumentMoniker": "Presentation\\Theme\\AppTheme.cs",
@@ -653,7 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "ExamDialog.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\ExamDialog.cs",
               "RelativeDocumentMoniker": "Presentation\\ExamDialog.cs",
@@ -665,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "PaymentsPage.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\PaymentsPage.cs",
               "RelativeDocumentMoniker": "Presentation\\UserControls\\PaymentsPage.cs",
@@ -677,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "Exam.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\Exam.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Exam.cs",
@@ -689,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "ExamsPage.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\ExamsPage.cs",
               "RelativeDocumentMoniker": "Presentation\\UserControls\\ExamsPage.cs",
@@ -702,7 +748,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "EmailTemplates.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Email\\EmailTemplates.cs",
               "RelativeDocumentMoniker": "Application\\Email\\EmailTemplates.cs",
@@ -714,7 +760,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "ExamService.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\ExamService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\ExamService.cs",
@@ -726,7 +772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "IExamService.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\IExamService.cs",
               "RelativeDocumentMoniker": "Application\\ServicesInterfaces\\IExamService.cs",
@@ -738,7 +784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "SubjectGradeHandler.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\SubjectGradeHandler.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\SubjectGradeHandler.cs",
@@ -750,7 +796,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 56,
               "Title": "IPasswordHasher.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\Security\\IPasswordHasher.cs",
               "RelativeDocumentMoniker": "Application\\ServicesInterfaces\\Security\\IPasswordHasher.cs",
@@ -762,7 +808,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "CenterSettings.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Settings\\CenterSettings.cs",
               "RelativeDocumentMoniker": "Application\\Settings\\CenterSettings.cs",
@@ -774,7 +820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "EmailSettings.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Settings\\EmailSettings.cs",
               "RelativeDocumentMoniker": "Application\\Settings\\EmailSettings.cs",
@@ -786,7 +832,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\LoginForm.cs",
               "RelativeDocumentMoniker": "Presentation\\LoginForm.cs",
@@ -799,7 +845,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 54,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Security\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Security\\PasswordHasher.cs",
@@ -811,7 +857,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "RegisterForm.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\RegisterForm.cs",
               "RelativeDocumentMoniker": "Presentation\\RegisterForm.cs",
@@ -823,7 +869,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "IPaymentService.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\IPaymentService.cs",
               "RelativeDocumentMoniker": "Application\\ServicesInterfaces\\IPaymentService.cs",
@@ -835,7 +881,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "ISubjectGradeHandler.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Interfaces\\Repos\\ISubjectGradeHandler.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\Repos\\ISubjectGradeHandler.cs",
@@ -847,7 +893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "PaymentService.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\PaymentService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\PaymentService.cs",
@@ -859,7 +905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "EmailNotificationService.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Email\\EmailNotificationService.cs",
               "RelativeDocumentMoniker": "Application\\Email\\EmailNotificationService.cs",
@@ -871,7 +917,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "Person.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\Person.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\Person.cs",
@@ -883,7 +929,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Models\\User.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\User.cs",
@@ -895,7 +941,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "Validator.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Validation\\Validator.cs",
               "RelativeDocumentMoniker": "Application\\Validation\\Validator.cs",
@@ -907,7 +953,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\ServicesInterfaces\\Email\\IEmailService.cs",
               "RelativeDocumentMoniker": "Application\\ServicesInterfaces\\Email\\IEmailService.cs",
@@ -919,19 +965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "EnrollmentAppService.cs",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\EnrollmentAppService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\EnrollmentAppService.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\EnrollmentAppService.cs",
-              "RelativeToolTip": "Application\\Services\\EnrollmentAppService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T14:57:15.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "EmailService.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\Email\\EmailService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repository\\Email\\EmailService.cs",
@@ -943,7 +977,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\appsettings.json",
               "RelativeDocumentMoniker": "Presentation\\appsettings.json",
@@ -955,7 +989,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "MainShell.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\MainShell.cs",
               "RelativeDocumentMoniker": "Presentation\\MainShell.cs",
@@ -968,7 +1002,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 55,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
@@ -980,7 +1014,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "UserPermission.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Common\\Roles\\UserPermission.cs",
               "RelativeDocumentMoniker": "Domain\\Common\\Roles\\UserPermission.cs",
@@ -992,7 +1026,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "AppSession.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\AppSession.cs",
               "RelativeDocumentMoniker": "Presentation\\AppSession.cs",
@@ -1004,7 +1038,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "UsersPage.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\UsersPage.cs",
               "RelativeDocumentMoniker": "Presentation\\UserControls\\UsersPage.cs",
@@ -1017,7 +1051,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "UserDialog.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserDialog.cs",
               "RelativeDocumentMoniker": "Presentation\\UserDialog.cs",
@@ -1030,19 +1064,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "EnrollmentDomainService.cs",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Services\\EnrollmentDomainService.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\EnrollmentDomainService.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Services\\EnrollmentDomainService.cs",
-              "RelativeToolTip": "Domain\\Services\\EnrollmentDomainService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T11:24:16.502Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 57,
               "Title": "GhostButton.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\GhostButton.cs",
               "RelativeDocumentMoniker": "Presentation\\Controls\\GhostButton.cs",
@@ -1054,7 +1076,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "StyledDataGridView.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\StyledDataGridView.cs",
               "RelativeDocumentMoniker": "Presentation\\Controls\\StyledDataGridView.cs",
@@ -1066,7 +1088,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "Groupspage.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\Groupspage.cs",
               "RelativeDocumentMoniker": "Presentation\\UserControls\\Groupspage.cs",
@@ -1079,7 +1101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 60,
               "Title": "SubjectGradeHandlerRepository.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\SubjectGradeHandlerRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repository\\SubjectGradeHandlerRepository.cs",
@@ -1091,7 +1113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 58,
               "Title": "LookupsPage.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\LookupsPage.cs",
               "RelativeDocumentMoniker": "Presentation\\UserControls\\LookupsPage.cs",
@@ -1104,7 +1126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 61,
               "Title": "SubjectGradeHandlerService.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\SubjectGradeHandlerService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\SubjectGradeHandlerService.cs",
@@ -1116,7 +1138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "LookupsPage.cs [Design]",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\LookupsPage.cs",
               "RelativeDocumentMoniker": "Presentation\\UserControls\\LookupsPage.cs",
@@ -1127,7 +1149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 63,
               "Title": "IGroup.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Domain\\Interfaces\\Repos\\IGroup.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\Repos\\IGroup.cs",
@@ -1139,7 +1161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 62,
               "Title": "GroupRepository.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\GroupRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repository\\GroupRepository.cs",
@@ -1151,7 +1173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 65,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Repository\\UOW\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repository\\UOW\\UnitOfWork.cs",
@@ -1163,7 +1185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 64,
               "Title": "DashboardPage.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\DashboardPage.cs",
               "RelativeDocumentMoniker": "Presentation\\UserControls\\DashboardPage.cs",
@@ -1175,7 +1197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 68,
               "Title": "MainShell.cs [Design]",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\MainShell.cs",
               "RelativeDocumentMoniker": "Presentation\\MainShell.cs",
@@ -1186,7 +1208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 66,
               "Title": "SessionDialog.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\SessionDialog.cs",
               "RelativeDocumentMoniker": "Presentation\\SessionDialog.cs",
@@ -1198,7 +1220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 67,
               "Title": "GroupScheduleDialog.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\GroupScheduleDialog.cs",
               "RelativeDocumentMoniker": "Presentation\\GroupScheduleDialog.cs",
@@ -1210,7 +1232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 70,
               "Title": "StudentDialog.cs [Design]",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\StudentDialog.cs",
               "RelativeDocumentMoniker": "Presentation\\StudentDialog.cs",
@@ -1221,7 +1243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 74,
               "Title": "SessionsPage.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\SessionsPage.cs",
               "RelativeDocumentMoniker": "Presentation\\UserControls\\SessionsPage.cs",
@@ -1234,7 +1256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 69,
               "Title": "StudentsPage.cs [Design]",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\StudentsPage.cs",
               "RelativeDocumentMoniker": "Presentation\\UserControls\\StudentsPage.cs",
@@ -1245,7 +1267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 73,
               "Title": "UserDialog.cs [Design]",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserDialog.cs",
               "RelativeDocumentMoniker": "Presentation\\UserDialog.cs",
@@ -1256,7 +1278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 71,
               "Title": "UsersPage.cs [Design]",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\UsersPage.cs",
               "RelativeDocumentMoniker": "Presentation\\UserControls\\UsersPage.cs",
@@ -1267,7 +1289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 72,
               "Title": "Groupspage.cs [Design]",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\Groupspage.cs",
               "RelativeDocumentMoniker": "Presentation\\UserControls\\Groupspage.cs",
@@ -1278,7 +1300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 75,
               "Title": "AttendanceDialog.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\AttendanceDialog.cs",
               "RelativeDocumentMoniker": "Presentation\\AttendanceDialog.cs",
@@ -1290,7 +1312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 79,
               "Title": "SessionsPage.cs [Design]",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\SessionsPage.cs",
               "RelativeDocumentMoniker": "Presentation\\UserControls\\SessionsPage.cs",
@@ -1301,7 +1323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 76,
               "Title": "GroupDialog.cs [Design]",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\GroupDialog.cs",
               "RelativeDocumentMoniker": "Presentation\\GroupDialog.cs",
@@ -1312,7 +1334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 78,
               "Title": "ExamsPage.cs [Design]",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\UserControls\\ExamsPage.cs",
               "RelativeDocumentMoniker": "Presentation\\UserControls\\ExamsPage.cs",
@@ -1323,7 +1345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 77,
               "Title": "StatusBadge.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\StatusBadge.cs",
               "RelativeDocumentMoniker": "Presentation\\Controls\\StatusBadge.cs",
@@ -1335,7 +1357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 80,
               "Title": "StatCard.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\StatCard.cs",
               "RelativeDocumentMoniker": "Presentation\\Controls\\StatCard.cs",
@@ -1347,7 +1369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 81,
               "Title": "Divider.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\Divider.cs",
               "RelativeDocumentMoniker": "Presentation\\Controls\\Divider.cs",
@@ -1359,7 +1381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 82,
               "Title": "SectionLabel.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\SectionLabel.cs",
               "RelativeDocumentMoniker": "Presentation\\Controls\\SectionLabel.cs",
@@ -1371,7 +1393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 83,
               "Title": "DangerButton.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\DangerButton.cs",
               "RelativeDocumentMoniker": "Presentation\\Controls\\DangerButton.cs",
@@ -1383,7 +1405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 84,
               "Title": "RoundedButton.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\Controls\\RoundedButton.cs",
               "RelativeDocumentMoniker": "Presentation\\Controls\\RoundedButton.cs",
@@ -1395,19 +1417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
-              "Title": "StudentGroupAggregationService.cs",
-              "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\StudentGroupAggregationService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\StudentGroupAggregationService.cs",
-              "ToolTip": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Application\\Services\\StudentGroupAggregationService.cs",
-              "RelativeToolTip": "Application\\Services\\StudentGroupAggregationService.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAowDkAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T11:35:54.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 86,
               "Title": "CenterDbContext.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\CenterDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\CenterDbContext.cs",
@@ -1419,7 +1429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 85,
               "Title": "PersonConfiguration.cs",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Infrastructure\\Configurations\\PersonConfiguration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Configurations\\PersonConfiguration.cs",
@@ -1431,7 +1441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 87,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "D:\\cyber security\\fundamentals\\Projects\\Center App\\Presentation\\LoginForm.cs",
               "RelativeDocumentMoniker": "Presentation\\LoginForm.cs",

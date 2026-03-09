@@ -10,12 +10,11 @@ namespace Application.Services;
 public class StudentGroupAggregationService : IStudentGroupAggregationService
 {
     private readonly IUnitOfWork _uow;
-    private readonly EnrollmentDomainService _domain;
+ 
 
-    public StudentGroupAggregationService(IUnitOfWork uow, EnrollmentDomainService domain)
+    public StudentGroupAggregationService(IUnitOfWork uow)
     {
         _uow = uow;
-        _domain = domain;
     }
 
     // ── Enroll ────────────────────────────────────────────────────────────────
@@ -45,7 +44,7 @@ public class StudentGroupAggregationService : IStudentGroupAggregationService
                 studentId, group.SubjectGrade?.Subject?.Id ?? 0);
 
         // 3. Delegate all validation + creation to domain service
-        var result = _domain.Enroll(student, group, canJoin,
+        var result = EnrollmentDomainService.Enroll(student, group, canJoin,
                                      alreadyEnrolledSameGroup,
                                      alreadyEnrolledSameSubject);
 
@@ -86,7 +85,7 @@ public class StudentGroupAggregationService : IStudentGroupAggregationService
             await _uow.StudentGroupAggregations.ExistsWithSameGroupAsync(studentId, groupId);
 
         // Domain service validates the rule
-        var check = _domain.Disenroll(isEnrolled);
+        var check = EnrollmentDomainService.Disenroll(isEnrolled);
         if (!check.IsSuccess)
             return Result<bool>.Failure(check.ErrorMessage!);
 
@@ -105,7 +104,7 @@ public class StudentGroupAggregationService : IStudentGroupAggregationService
             (await _uow.StudentGroupAggregations.GetByStudentAsync(studentId)).Any();
 
         // Domain service validates the rule
-        var check = _domain.DisenrollAll(hasAny);
+        var check = EnrollmentDomainService.DisenrollAll(hasAny);
         if (!check.IsSuccess)
             return Result<bool>.Failure(check.ErrorMessage!);
 

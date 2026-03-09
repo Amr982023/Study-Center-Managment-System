@@ -14,14 +14,10 @@ namespace Application.Services
     public class EnrollmentAppService : IEnrollmentAppService
     {
         private readonly IUnitOfWork _uow;
-        private readonly EnrollmentDomainService _domainService;
 
-        public EnrollmentAppService(
-            IUnitOfWork uow,
-            EnrollmentDomainService domainService)
+        public EnrollmentAppService(IUnitOfWork uow)
         {
             _uow = uow;
-            _domainService = domainService;
         }
 
         public async Task<Result<StudentGroupAggregation>> EnrollStudentAsync(int studentId,int groupId)
@@ -48,7 +44,7 @@ namespace Application.Services
                         studentId,
                         group.SubjectGrade.SubjectId);
 
-            var result = _domainService.Enroll(
+            var result = EnrollmentDomainService.Enroll(
                 student,
                 group,
                 canJoin,
@@ -70,7 +66,7 @@ namespace Application.Services
                 await _uow.StudentGroupAggregations
                     .ExistsWithSameGroupAsync(studentId, groupId);
 
-            var decision = _domainService.Disenroll(isEnrolled);
+            var decision = EnrollmentDomainService.Disenroll(isEnrolled);
             if (!decision.IsSuccess)
                 return decision;
 
@@ -86,7 +82,7 @@ namespace Application.Services
                 await _uow.StudentGroupAggregations
                     .HasAnyEnrollmentAsync(studentId);
 
-            var decision = _domainService.DisenrollAll(hasAny);
+            var decision = EnrollmentDomainService.DisenrollAll(hasAny);
             if (!decision.IsSuccess)
                 return decision;
 

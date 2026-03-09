@@ -9,9 +9,9 @@ using Domain.Models;
 
 namespace Domain.Services
 {
-    public class EnrollmentDomainService
+    public static class EnrollmentDomainService
     {
-        public Result<StudentGroupAggregation> Enroll(Student student, Group groupToJoin, bool canJoin,
+        public static Result<StudentGroupAggregation> Enroll(Student student, Group groupToJoin, bool canJoin,
             bool alreadyEnrolledSameGroup, bool alreadyEnrolledSameSubject)
         {
             if (!canJoin)
@@ -31,7 +31,7 @@ namespace Domain.Services
                 groupToJoin);
         }
 
-        public Result<bool> Disenroll(bool isEnrolled)
+        public static Result<bool> Disenroll(bool isEnrolled)
         {
             if (!isEnrolled)
                 return Result<bool>.Failure("Student is not enrolled in this group");
@@ -39,7 +39,7 @@ namespace Domain.Services
             return Result<bool>.Success(true);
         }
 
-        public Result<bool> DisenrollAll(bool hasAnyEnrollment)
+        public static Result<bool> DisenrollAll(bool hasAnyEnrollment)
         {
             if (!hasAnyEnrollment)
                 return Result<bool>.Failure("Student has no enrollments");

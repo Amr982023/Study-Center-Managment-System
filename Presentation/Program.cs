@@ -1,15 +1,8 @@
-using System;
-using System.Windows.Forms;
-using Application.Email;
 using Application.Settings;
-using Infrastructure.Services;
 using Microsoft.Extensions.Configuration;
 using Application.Services;
 using Application.ServicesInterfaces;
-using Application.ServicesInterfaces.Security;
 using Infrastructure;
-using Domain.Interfaces;
-using Domain.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Presentation.Forms;
 
@@ -86,7 +79,6 @@ namespace Presentation
             services.AddScoped<IGroupService, GroupService>();
             services.AddScoped<IGroupScheduleService, GroupScheduleService>();
             services.AddScoped<IClassSessionService, ClassSessionService>();
-            services.AddScoped<EnrollmentDomainService>();
             services.AddScoped<IStudentGroupAggregationService, StudentGroupAggregationService>();
             services.AddScoped<IStudentRegistrationService, StudentRegistrationService>();
             services.AddScoped<IPaymentService, PaymentService>();

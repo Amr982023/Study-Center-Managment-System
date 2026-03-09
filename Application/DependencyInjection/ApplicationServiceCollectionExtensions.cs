@@ -18,7 +18,6 @@ namespace Application.DependencyInjection
         {
             services.AddScoped<IEnrollmentAppService,EnrollmentAppService>();
 
-            services.AddScoped<EnrollmentDomainService>();
             services.AddScoped<IGradeService, GradeService>();
             services.AddScoped<ISubjectService, SubjectService>();
             services.AddScoped<ISubjectGradeHandlerService, SubjectGradeHandlerService>();
