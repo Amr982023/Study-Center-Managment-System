@@ -31,7 +31,7 @@ namespace Infrastructure.Repository
 
         public async Task<Student?> GetWithRegistrationsAsync(int studentId)
             => await _dbSet
-                .Include("_registrations")
+                .Include(s => s.Registrations)
                 .FirstOrDefaultAsync(s => s.Id == studentId);
 
         public async Task<Student?> GetWithGradeAsync(int studentId)

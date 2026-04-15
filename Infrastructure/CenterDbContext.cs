@@ -54,7 +54,7 @@ namespace Infrastructure
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseSqlServer(
-                    "Server=localhost;Database=CenterDb;Trusted_Connection=True;TrustServerCertificate=True");
+                    "Server=.\\SQL2025;Database=CenterDb;Trusted_Connection=True;TrustServerCertificate=True");
             }
         }
     }

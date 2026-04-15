@@ -31,9 +31,9 @@ namespace Infrastructure.Configurations
                    .WithMany()
                    .HasForeignKey(g => g.SubjectGradeHandlerId);
 
-            builder.HasMany(g => g.Sessions)
-              .WithOne()
-              .HasForeignKey("GroupId");
+            //builder.HasMany(g => g.Sessions)
+            //  .WithOne()
+            //  .HasForeignKey("GroupId");
 
             builder.Navigation(g => g.Sessions)
                    .UsePropertyAccessMode(PropertyAccessMode.Field);
